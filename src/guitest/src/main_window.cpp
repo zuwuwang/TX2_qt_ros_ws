@@ -42,12 +42,14 @@ MainWindow::MainWindow(int argc, char** argv, QWidget *parent)
 
     // display in ui
      QObject::connect(&imagesavenode,SIGNAL(displayCameraImage()),this,SLOT(displayCameraImageLabel()));
+     QObject::connect(&socketsendnode,SIGNAL(mcnnResault()),this,SLOT(mcnnResaultShow()));
 
 	/*********************
 	** Logging
 	**********************/
 	ui.view_logging->setModel(qnode.loggingModel());
     QObject::connect(&qnode, SIGNAL(loggingUpdated()), this, SLOT(updateLoggingView()));
+
 
     /*********************
     ** Auto Start

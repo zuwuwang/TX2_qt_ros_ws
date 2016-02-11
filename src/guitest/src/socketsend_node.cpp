@@ -170,7 +170,7 @@ void SocketSendNode::socketSendImage(const sensor_msgs::ImageConstPtr &msg){
         // receive resault
         recv(client_socket, peopleNum, 20, 0);
         // ui display mcnnResault
-        //  Q_EMIT mcnnResault();
+         Q_EMIT mcnnResault();
        }
         catch (cv_bridge::Exception& e)
         {
