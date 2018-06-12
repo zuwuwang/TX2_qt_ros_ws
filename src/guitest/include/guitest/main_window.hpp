@@ -16,6 +16,7 @@
 #include "ui_main_window.h"
 #include "qnode.hpp"
 #include "imagesave_node.hpp"
+#include "socketsend_node.hpp"
 
 /*****************************************************************************
 ** Namespace
@@ -41,6 +42,8 @@ public:
 
 	void closeEvent(QCloseEvent *event); // Overloaded function
 	void showNoMasterMessage();
+  void showSocketInitFailedMessage();
+
 
 public Q_SLOTS:
 	/******************************************
@@ -61,11 +64,14 @@ public Q_SLOTS:
     *******************************************/
     void updateLoggingView(); // no idea why this can't connect automatically
     void displayCameraImageLabel();
+    void mcnnResaultShow();
 
 private:
 	Ui::MainWindowDesign ui;
 	QNode qnode;
+  //TODO HERE ,INSTANTIATION YOUR NODE TO USE IN MAINWINDOW
   ImageSaveNode imagesavenode;
+  SocketSendNode socketsendnode;
 };
 
 }  // namespace guitest

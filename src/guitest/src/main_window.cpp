@@ -28,17 +28,17 @@ using namespace Qt;
 
 MainWindow::MainWindow(int argc, char** argv, QWidget *parent)
 	: QMainWindow(parent)
-	, qnode(argc,argv)
+  , qnode(argc,argv)  //TODO HERE,ADD YOUR NODE INIT WITH PARAM, type:catkin_make in terminal (in qt_ros_ws)
   , imagesavenode(argc,argv)
+  , socketsendnode(argc,argv)
 {
 	ui.setupUi(this); // Calling this incidentally connects all ui's triggers to on_...() callbacks in this class.
     QObject::connect(ui.actionAbout_Qt, SIGNAL(triggered(bool)), qApp, SLOT(aboutQt())); // qApp is a global variable for the application
-
     ReadSettings();
 	setWindowIcon(QIcon(":/images/icon.png"));
-
     QObject::connect(&qnode, SIGNAL(rosShutdown()), this, SLOT(close()));
     QObject::connect(&imagesavenode,SIGNAL(rosShutdown()),this,SLOT(close()));
+    QObject::connect(&socketsendnode,SIGNAL(rosShutdown()),this,SLOT(close()));
 
     // display in ui
      QObject::connect(&imagesavenode,SIGNAL(displayCameraImage()),this,SLOT(displayCameraImageLabel()));
@@ -52,7 +52,8 @@ MainWindow::MainWindow(int argc, char** argv, QWidget *parent)
     /*********************
     ** Auto Start
     **********************/
-    if ( ui.checkbox_remember_settings->isChecked() ) {
+    if ( ui.checkbox_remember_settings->isChecked() )
+    {
         on_button_connect_clicked(true);
     }
 }
@@ -70,49 +71,68 @@ void MainWindow::showNoMasterMessage() {
     close();
 }
 
+void MainWindow::showSocketInitFailedMessage()
+{
+  QMessageBox msgBox;
+  msgBox.setText(" Connect server failed, please try again.");
+  msgBox.exec();
+    close();
+}
 /*
  * These triggers whenever the button is clicked, regardless of whether it
  * is already checked or not.
  */
 
 void MainWindow::on_button_connect_clicked(bool check ) {
-  if ( ui.checkbox_use_environment->isChecked() )
-  {
-    if ( !qnode.init() )
-    {
-			showNoMasterMessage();
-    } else
-    {
-			ui.button_connect->setEnabled(false);
-		}
-  }
+//  if ( ui.checkbox_use_environment->isChecked() )
+//  {
+//    if ( !qnode.init() )
+//    {
+//			showNoMasterMessage();
+//    } else
+//    {
+//			ui.button_connect->setEnabled(false);
+//		}
+//  }
+
   // init qnode
-		if ( ! qnode.init(ui.line_edit_master->text().toStdString(), ui.line_edit_host->text().toStdString()) ) 
+//		if ( ! qnode.init(ui.line_edit_master->text().toStdString(), ui.line_edit_host->text().toStdString()) )
+//    {
+//			showNoMasterMessage();
+//    }
+//  else
+//    {
+//			ui.button_connect->setEnabled(false);
+//			ui.line_edit_master->setReadOnly(true);
+//			ui.line_edit_host->setReadOnly(true);
+//			ui.line_edit_topic->setReadOnly(true);
+//		}
+
+  // imagesavenode  init
+//    if( ! imagesavenode.init() )
+//    {
+//      showNoMasterMessage();
+//    }
+//    else
+//    {
+
+//    }
+
+  // socketsendnode init
+    if( !socketsendnode.init() )
     {
-			showNoMasterMessage();
-    }
-  else
-    {
-			ui.button_connect->setEnabled(false);
-			ui.line_edit_master->setReadOnly(true);
-			ui.line_edit_host->setReadOnly(true);
-			ui.line_edit_topic->setReadOnly(true);
-		}
-  // init imagesavenode
-    if( ! imagesavenode.init() )
-    {
-      showNoMasterMessage();
+       showSocketInitFailedMessage();
     }
     else
     {
 
     }
-
   /*********************
    * node.start
    * ********************/
-  qnode.start();
-  imagesavenode.start();
+//  qnode.start();
+//  imagesavenode.start();
+  socketsendnode.start();
 }
 
 
@@ -151,7 +171,7 @@ void MainWindow::displayCameraImageLabel(){
   time_t t;
   t = time(NULL);
   fileTime = localtime(&t);
-  strftime(filePath,100,"/home/nvidia/qt_ros_ws/image2/%Y%m%d_%H%M%S.jpg",fileTime);
+  strftime(filePath,100,"/home/ubuntu/qt_ros_ws/image2/%Y%m%d_%H%M%S.jpg",fileTime);
   strftime(fileName,100,"%Y%m%d_%H%M%S.jpg",fileTime);
 
   cv::Mat img2display = imagesavenode.cameraImage;
@@ -163,6 +183,14 @@ void MainWindow::displayCameraImageLabel(){
   cameraImageScaled = idsImage.scaled(ui.label_cameraImg->size(),Qt::KeepAspectRatio);
   ui.label_cameraImg->setPixmap(QPixmap::fromImage(cameraImageScaled));
 }
+
+
+void MainWindow::mcnnResaultShow(){
+  long num =atof(socketsendnode.peopleNum);
+  QString mcnnNum = QString::number( num,10);
+  ui.line_edit_mcnn->setText(mcnnNum);
+}
+
 /*****************************************************************************
 ** Implementation [Menu]
 *****************************************************************************/

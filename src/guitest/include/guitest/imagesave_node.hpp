@@ -1,5 +1,5 @@
-#ifndef IMAGESAVE_NODE_HPP
-#define IMAGESAVE_NODE_HPP
+#ifndef guitest_IMAGESAVE_NODE_HPP_
+#define guitest_IMAGESAVE_NODE_HPP_
 /*****************************************************************************
 ** Includes
 *****************************************************************************/
@@ -57,8 +57,7 @@ public:
 Q_SIGNALS:
   void loggingUpdated();
   void rosShutdown();
-  void displayCameraImage();
-    void socketSend();
+   void displayCameraImage();
 
 private:
   int init_argc;
@@ -68,4 +67,4 @@ private:
 };
 
 }  // namespace guitest
-#endif // IMAGESAVE_NODE_HPP
+#endif // guitest_IMAGESAVE_NODE_HPP_
