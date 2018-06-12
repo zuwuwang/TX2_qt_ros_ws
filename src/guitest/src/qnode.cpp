@@ -49,7 +49,7 @@ bool QNode::init() {
 	ros::NodeHandle n;
 	// Add your ros communications here.
 	chatter_publisher = n.advertise<std_msgs::String>("chatter", 1000);
-	start();
+  // start();
 	return true;
 }
 
@@ -65,7 +65,7 @@ bool QNode::init(const std::string &master_url, const std::string &host_url) {
 	ros::NodeHandle n;
 	// Add your ros communications here.
 	chatter_publisher = n.advertise<std_msgs::String>("chatter", 1000);
-	start();
+  // start();
 	return true;
 }
 
