@@ -167,9 +167,10 @@ void SocketSendNode::socketSendImage(const sensor_msgs::ImageConstPtr &msg){
             finished += received;
             count = count +1;
           }
-//        // receive resault
-//        recv(client_socket, peopleNum, 20, 0);
-//        // ui display mcnnResault
+        // receive resault
+        recv(client_socket, peopleNum, 20, 0);
+        qDebug("peopleNum is %d",atoi(peopleNum));
+        // ui display mcnnResault
           Q_EMIT mcnnResault();
        }
         catch (cv_bridge::Exception& e)
