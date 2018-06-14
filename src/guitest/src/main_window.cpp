@@ -96,17 +96,17 @@ void MainWindow::on_button_connect_clicked(bool check ) {
 //  }
 
   // init qnode
-//    if ( ! qnode.init(ui.line_edit_master->text().toStdString(), ui.line_edit_host->text().toStdString()) )
-//    {
-//      showNoMasterMessage();
-//    }
-//  else
-//    {
-//      ui.button_connect->setEnabled(false);
-//      ui.line_edit_master->setReadOnly(true);
-//      ui.line_edit_host->setReadOnly(true);
-//      ui.line_edit_topic->setReadOnly(true);
-//    }
+    if ( ! qnode.init(ui.line_edit_master->text().toStdString(), ui.line_edit_host->text().toStdString()) )
+    {
+      showNoMasterMessage();
+    }
+  else
+    {
+      ui.button_connect->setEnabled(false);
+      ui.line_edit_master->setReadOnly(true);
+      ui.line_edit_host->setReadOnly(true);
+      ui.line_edit_topic->setReadOnly(true);
+    }
 
   // imagesavenode  init
 //    if( ! imagesavenode.init() )
@@ -131,7 +131,7 @@ void MainWindow::on_button_connect_clicked(bool check ) {
   /*********************
    * node.start
    * ********************/
-//  qnode.start();
+  qnode.start();
 //  imagesavenode.start();
   socketsendnode.start();
 }
@@ -187,7 +187,7 @@ void MainWindow::displayCameraImageLabel(){
 
 
 void MainWindow::mcnnResaultShow(){
-  long num =atof(socketsendnode.peopleNum);
+  num =atof(socketsendnode.peopleNum);
   QString mcnnNum = QString::number( num,10);
   ui.line_edit_mcnn->setText(mcnnNum);
 }

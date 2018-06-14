@@ -43,6 +43,7 @@ public:
 	void closeEvent(QCloseEvent *event); // Overloaded function
 	void showNoMasterMessage();
   void showSocketInitFailedMessage();
+  long num = 0;
 
 
 public Q_SLOTS:
