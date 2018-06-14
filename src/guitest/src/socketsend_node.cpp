@@ -102,7 +102,7 @@ void SocketSendNode::run() {
   {
     // ros img to opencv img
     image_transport::ImageTransport transport_socket(n);
-    socketSend_subscriber = transport_socket.subscribe("/usb_cam/image_raw",1,&SocketSendNode::socketSendImage,this); // TX2 different
+    socketSend_subscriber = transport_socket.subscribe("/camera/image_raw",1,&SocketSendNode::socketSendImage,this); // TX2 different
     socketSendFlag = true;
     ros::spinOnce();
     loop_rate.sleep();
@@ -168,7 +168,7 @@ void SocketSendNode::socketSendImage(const sensor_msgs::ImageConstPtr &msg){
             count = count +1;
           }
 //        // receive resault
-//        recv(client_socket, peopleNum, 10, 0);
+//        recv(client_socket, peopleNum, 20, 0);
 //        // ui display mcnnResault
           Q_EMIT mcnnResault();
        }

@@ -57,7 +57,7 @@ bool ImageSaveNode::init() {
   // cv::startWindowThread();  // bug here,add this line,lead to dont display ui
   // Add your ros communications here.
   image_transport::ImageTransport transport(n);
-  cameraImage_subscriber = transport.subscribe("/usb_cam/image_raw",1,&ImageSaveNode::imageTransCallback,this);
+  cameraImage_subscriber = transport.subscribe("/camera/image_raw",1,&ImageSaveNode::imageTransCallback,this);
  // start();
   return true;
 }

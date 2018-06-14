@@ -88,25 +88,25 @@ void MainWindow::on_button_connect_clicked(bool check ) {
 //  {
 //    if ( !qnode.init() )
 //    {
-//			showNoMasterMessage();
+//      showNoMasterMessage();
 //    } else
 //    {
-//			ui.button_connect->setEnabled(false);
-//		}
+//      ui.button_connect->setEnabled(false);
+//    }
 //  }
 
   // init qnode
-//		if ( ! qnode.init(ui.line_edit_master->text().toStdString(), ui.line_edit_host->text().toStdString()) )
-//    {
-//			showNoMasterMessage();
-//    }
-//  else
-//    {
-//			ui.button_connect->setEnabled(false);
-//			ui.line_edit_master->setReadOnly(true);
-//			ui.line_edit_host->setReadOnly(true);
-//			ui.line_edit_topic->setReadOnly(true);
-//		}
+    if ( ! qnode.init(ui.line_edit_master->text().toStdString(), ui.line_edit_host->text().toStdString()) )
+    {
+      showNoMasterMessage();
+    }
+  else
+    {
+      ui.button_connect->setEnabled(false);
+      ui.line_edit_master->setReadOnly(true);
+      ui.line_edit_host->setReadOnly(true);
+      ui.line_edit_topic->setReadOnly(true);
+    }
 
   // imagesavenode  init
 //    if( ! imagesavenode.init() )
@@ -130,7 +130,7 @@ void MainWindow::on_button_connect_clicked(bool check ) {
   /*********************
    * node.start
    * ********************/
-//  qnode.start();
+  qnode.start();
 //  imagesavenode.start();
   socketsendnode.start();
 }
@@ -208,7 +208,7 @@ void MainWindow::ReadSettings() {
     restoreGeometry(settings.value("geometry").toByteArray());
     restoreState(settings.value("windowState").toByteArray());
     QString master_url = settings.value("master_url",QString("http://localhost:11311/")).toString();
-    QString host_url = settings.value("host_url", QString("192.168.1.105")).toString();
+    QString host_url = settings.value("host_url", QString("192.168.43.225")).toString();
     //QString topic_name = settings.value("topic_name", QString("/chatter")).toString();
     ui.line_edit_master->setText(master_url);
     ui.line_edit_host->setText(host_url);
