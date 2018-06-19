@@ -110,7 +110,10 @@ void MainWindow::on_button_connect_clicked(bool check ) {
       ui.line_edit_topic->setReadOnly(true);
     }
 
-  // imagesavenode  init
+    // robot connection
+    system("gnome-terminal  -x bash -c ' roslaunch turtlebot_bringup minimal.launch'&");
+
+    // imagesavenode  init
 //    if( ! imagesavenode.init() )
 //    {
 //      showNoMasterMessage();
@@ -121,21 +124,21 @@ void MainWindow::on_button_connect_clicked(bool check ) {
 //    }
 
   // socketsendnode init
-    if( ! socketsendnode.init() )
-    {
-       showSocketInitFailedMessage();
-    }
-    else
-    {
+//    if( ! socketsendnode.init() )
+//    {
+//       showSocketInitFailedMessage();
+//    }
+//    else
+//    {
 
-    }
+//    }
    // mcnnResaultShow  test
   /*********************
    * node.start
    * ********************/
   qnode.start();
 //  imagesavenode.start();
-  socketsendnode.start();
+//  socketsendnode.start();
 }
 
 
@@ -252,12 +255,6 @@ void MainWindow::closeEvent(QCloseEvent *event)
 ** Implementation [ Add Your Button Response Here ]
 *****************************************************************************/
 
-void MainWindow::on_button_onestepSLAM_clicked(bool checked){
-  // all in one launch file
-  //system("gnome-terminal -x bash -c 'source /home/ubuntu/turtlebot/devel/setup.bash;roslaunch turtlebot_bringup minimal.launch limited:=true'&");
-    system("gnome-terminal  -x bash -c ' roslaunch usb_cam usb_cam-test.launch '");
-}
-
 void MainWindow::on_button_roscore_clicked(bool checked)
 {
 //  system("gnome-terminal -x bash -c 'source /home/nvidia/qt_ros_ws/devel/setup.bash;roscore limited:=true'&"); // this is run on TX2
@@ -270,6 +267,30 @@ void MainWindow::on_button_roscore_clicked(bool checked)
 
 void MainWindow::on_button_openCam_clicked(bool checked){
   system("gnome-terminal  -x bash -c ' roslaunch ueye_cam rgb8.launch '&");
+}
+
+void MainWindow::on_button_onestepSLAM_clicked(bool checked){
+  // all in one launch file
+  //system("gnome-terminal -x bash -c 'source /home/ubuntu/turtlebot/devel/setup.bash;roslaunch turtlebot_bringup minimal.launch limited:=true'&");
+    system("gnome-terminal  -x bash -c ' roslaunch sick_tim ALL.launch '&");
+}
+
+void MainWindow::on_button_saveMap_clicked(bool checked){
+   system("gnome-terminal  -x bash -c ' rosrun map_server map_saver -f /home/ubuntu/qt_ros_ws/slam_map '&");
+}
+
+void MainWindow::on_button_loadMap_clicked(bool checked){
+  // todo
+  // how to show pgm image in qt ui with qimage class function
+//  QString slamMapFile;
+//  slamMapFile =
+//  qi
+  system("gnome-terminal  -x bash -c ' roslaunch turtlebot_navigation sick_amcl_demo.launch map_file:=/home/ubuntu/qt_ros_ws/slam_map'&");
+
+}
+
+void MainWindow::on_button_rviz_clicked(bool checked){
+    system("gnome-terminal  -x bash -c ' roslaunch turtlebot_rviz_launchers view_navigation.launch --screen '&");
 }
 
 }  // namespace guitest

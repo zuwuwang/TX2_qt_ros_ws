@@ -342,14 +342,14 @@
            </property>
            <layout class="QHBoxLayout" name="horizontalLayout">
             <item>
-             <widget class="QPushButton" name="button_onestep">
+             <widget class="QPushButton" name="button_onestepSLAM">
               <property name="text">
                <string>oneStepSLAM</string>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QPushButton" name="pushButton">
+             <widget class="QPushButton" name="button_saveMap">
               <property name="text">
                <string>saveMap</string>
               </property>
@@ -368,14 +368,14 @@
            </property>
            <layout class="QHBoxLayout" name="horizontalLayout_2">
             <item>
-             <widget class="QPushButton" name="pushButton_4">
+             <widget class="QPushButton" name="button_rviz">
               <property name="text">
                <string>rviz</string>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QPushButton" name="pushButton_3">
+             <widget class="QPushButton" name="button_loadMap">
               <property name="text">
                <string>loadMap</string>
               </property>
@@ -462,6 +462,19 @@
               </property>
               <property name="text">
                <string>setB</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton">
+              <property name="maximumSize">
+               <size>
+                <width>40</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>nav</string>
               </property>
              </widget>
             </item>
