@@ -65,7 +65,7 @@ bool ImageSaveNode::init() {
 void ImageSaveNode::run() {
   ros::NodeHandle n;
   //ros timer
-  ros::Timer captureTimer = n.createTimer(ros::Duration(5),&ImageSaveNode::captureTimerCallback,this);
+  ros::Timer captureTimer = n.createTimer(ros::Duration(2),&ImageSaveNode::captureTimerCallback,this);
   // ros img to opencv img
   image_transport::ImageTransport transport(n);
   cameraImage_subscriber = transport.subscribe("/camera/image_raw",1,&ImageSaveNode::imageTransCallback,this); // TX2 different

@@ -37,7 +37,7 @@
        </sizepolicy>
       </property>
       <property name="title">
-       <string>Logging</string>
+       <string>                                                                           第十三届中国研究生电子设计竞赛上海赛区</string>
       </property>
       <layout class="QGridLayout" name="gridLayout_3">
        <item row="1" column="1">
@@ -80,7 +80,10 @@
            </rect>
           </property>
           <property name="text">
-           <string>cameraImg</string>
+           <string>相机图像</string>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
           </property>
          </widget>
         </widget>
@@ -103,7 +106,10 @@
            </rect>
           </property>
           <property name="text">
-           <string>slamMap</string>
+           <string>slam地图窗口</string>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
           </property>
          </widget>
         </widget>
@@ -126,7 +132,10 @@
            </rect>
           </property>
           <property name="text">
-           <string>webMap</string>
+           <string>web地图窗口</string>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
           </property>
          </widget>
         </widget>
@@ -169,7 +178,7 @@
    <property name="minimumSize">
     <size>
      <width>331</width>
-     <height>544</height>
+     <height>560</height>
     </size>
    </property>
    <property name="allowedAreas">
@@ -201,7 +210,7 @@
         <item>
          <widget class="QGroupBox" name="groupBox">
           <property name="title">
-           <string>Ros Master</string>
+           <string>ROS主机</string>
           </property>
           <layout class="QGridLayout" name="gridLayout">
            <item row="6" column="0" colspan="3">
@@ -223,7 +232,7 @@
               <enum>QFrame::Raised</enum>
              </property>
              <property name="text">
-              <string>Ros Master Url</string>
+              <string>ROS网络地址</string>
              </property>
             </widget>
            </item>
@@ -243,7 +252,7 @@
               <enum>QFrame::Raised</enum>
              </property>
              <property name="text">
-              <string>Ros IP</string>
+              <string>ROS　IP地址</string>
              </property>
             </widget>
            </item>
@@ -263,7 +272,7 @@
               <enum>QFrame::Raised</enum>
              </property>
              <property name="text">
-              <string>Ros Hostname</string>
+              <string>ROS主机名</string>
              </property>
             </widget>
            </item>
@@ -305,7 +314,7 @@
               <string>Clear all waypoints and set the target to the current joint trajectory state.</string>
              </property>
              <property name="text">
-              <string>Connect</string>
+              <string>系统链接</string>
              </property>
             </widget>
            </item>
@@ -319,7 +328,7 @@
            <item row="8" column="1">
             <widget class="QPushButton" name="button_openCam">
              <property name="text">
-              <string>openCam</string>
+              <string>打开相机</string>
              </property>
             </widget>
            </item>
@@ -329,7 +338,7 @@
         <item>
          <widget class="QGroupBox" name="groupBox_2">
           <property name="title">
-           <string>Run Laser SLAM</string>
+           <string>地图构建与导航</string>
           </property>
           <widget class="QWidget" name="horizontalLayoutWidget">
            <property name="geometry">
@@ -344,14 +353,14 @@
             <item>
              <widget class="QPushButton" name="button_onestepSLAM">
               <property name="text">
-               <string>oneStepSLAM</string>
+               <string>打开相机</string>
               </property>
              </widget>
             </item>
             <item>
              <widget class="QPushButton" name="button_saveMap">
               <property name="text">
-               <string>saveMap</string>
+               <string>保存地图</string>
               </property>
              </widget>
             </item>
@@ -370,47 +379,14 @@
             <item>
              <widget class="QPushButton" name="button_rviz">
               <property name="text">
-               <string>rviz</string>
+               <string>rviz工具</string>
               </property>
              </widget>
             </item>
             <item>
              <widget class="QPushButton" name="button_loadMap">
               <property name="text">
-               <string>loadMap</string>
-              </property>
-             </widget>
-            </item>
-           </layout>
-          </widget>
-         </widget>
-        </item>
-        <item>
-         <widget class="QGroupBox" name="groupBox_3">
-          <property name="title">
-           <string>Speech Assistance</string>
-          </property>
-          <widget class="QWidget" name="horizontalLayoutWidget_3">
-           <property name="geometry">
-            <rect>
-             <x>40</x>
-             <y>30</y>
-             <width>211</width>
-             <height>29</height>
-            </rect>
-           </property>
-           <layout class="QHBoxLayout" name="horizontalLayout_3">
-            <item>
-             <widget class="QPushButton" name="pushButton_6">
-              <property name="text">
-               <string>PushButton</string>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QPushButton" name="pushButton_5">
-              <property name="text">
-               <string>PushButton</string>
+               <string>加载地图</string>
               </property>
              </widget>
             </item>
@@ -485,7 +461,7 @@
         <item>
          <widget class="QGroupBox" name="groupBox_5">
           <property name="title">
-           <string>Get Resault</string>
+           <string>获取检测结果</string>
           </property>
           <widget class="QWidget" name="horizontalLayoutWidget_5">
            <property name="geometry">
@@ -500,7 +476,7 @@
             <item>
              <widget class="QLabel" name="label_4">
               <property name="text">
-               <string>peopleNumber</string>
+               <string>人群人数:</string>
               </property>
              </widget>
             </item>
@@ -510,22 +486,6 @@
            </layout>
           </widget>
          </widget>
-        </item>
-        <item>
-         <spacer name="verticalSpacer_3">
-          <property name="orientation">
-           <enum>Qt::Vertical</enum>
-          </property>
-          <property name="sizeType">
-           <enum>QSizePolicy::Fixed</enum>
-          </property>
-          <property name="sizeHint" stdset="0">
-           <size>
-            <width>20</width>
-            <height>40</height>
-           </size>
-          </property>
-         </spacer>
         </item>
        </layout>
       </widget>
@@ -539,7 +499,7 @@
         </sizepolicy>
        </property>
        <property name="text">
-        <string>Quit</string>
+        <string>退出</string>
        </property>
       </widget>
      </item>

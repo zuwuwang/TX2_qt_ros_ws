@@ -111,17 +111,17 @@ void MainWindow::on_button_connect_clicked(bool check ) {
     }
 
     // robot connection
-    system("gnome-terminal  -x bash -c ' roslaunch turtlebot_bringup minimal.launch'&");
+//    system("gnome-terminal  -x bash -c ' roslaunch turtlebot_bringup minimal.launch'&");
 
     // imagesavenode  init
-//    if( ! imagesavenode.init() )
-//    {
-//      showNoMasterMessage();
-//    }
-//    else
-//    {
+    if( ! imagesavenode.init() )
+    {
+      showNoMasterMessage();
+    }
+    else
+    {
 
-//    }
+    }
 
   // socketsendnode init
 //    if( ! socketsendnode.init() )
@@ -137,10 +137,16 @@ void MainWindow::on_button_connect_clicked(bool check ) {
    * node.start
    * ********************/
   qnode.start();
-//  imagesavenode.start();
-//  socketsendnode.start();
+  QImage slamImg;
+  slamImg.load("/home/ubuntu/qt_ros_ws/map/map.pgm");
+  ui.label_slammap->setPixmap(QPixmap::fromImage(slamImg));
+  imagesavenode.start();
+// socketsendnode.start();
 }
 
+void MainWindow::showSlamImage(){
+
+}
 
 void MainWindow::on_checkbox_use_environment_stateChanged(int state) {
 	bool enabled;

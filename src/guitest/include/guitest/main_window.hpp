@@ -43,6 +43,7 @@ public:
 	void closeEvent(QCloseEvent *event); // Overloaded function
 	void showNoMasterMessage();
   void showSocketInitFailedMessage();
+  void showSlamImage();
   long num = 0;
 
 

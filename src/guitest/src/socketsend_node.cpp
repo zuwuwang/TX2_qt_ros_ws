@@ -97,7 +97,7 @@ bool SocketSendNode::init() {
 
 void SocketSendNode::run() {
   ros::NodeHandle n;
-  ros::Rate loop_rate(0.2);
+  ros::Rate loop_rate(0.5);
   while( ros::ok() )
   {
     // ros img to opencv img
