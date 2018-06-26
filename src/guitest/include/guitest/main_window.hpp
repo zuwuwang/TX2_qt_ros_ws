@@ -17,6 +17,7 @@
 #include "qnode.hpp"
 #include "imagesave_node.hpp"
 #include "socketsend_node.hpp"
+#include <QtWebKit/QWebView>
 
 /*****************************************************************************
 ** Namespace
@@ -43,7 +44,8 @@ public:
 	void closeEvent(QCloseEvent *event); // Overloaded function
 	void showNoMasterMessage();
   void showSocketInitFailedMessage();
-  void showSlamImage();
+  void showSlamMap();
+  void showWebMap();
   long num = 0;
 
 
@@ -64,7 +66,6 @@ public Q_SLOTS:
 
   void on_button_openCam_clicked(bool checked );
 
-
     /******************************************
     ** Manual connections
     *******************************************/
@@ -81,5 +82,7 @@ private:
 };
 
 }  // namespace guitest
+
+
 
 #endif // guitest_MAIN_WINDOW_H

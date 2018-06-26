@@ -40,28 +40,6 @@
        <string>                                                                           第十三届中国研究生电子设计竞赛上海赛区</string>
       </property>
       <layout class="QGridLayout" name="gridLayout_3">
-       <item row="1" column="1">
-        <widget class="QListView" name="view_logging">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="minimumSize">
-          <size>
-           <width>400</width>
-           <height>300</height>
-          </size>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>600</width>
-           <height>600</height>
-          </size>
-         </property>
-        </widget>
-       </item>
        <item row="1" column="0">
         <widget class="QFrame" name="frame_2">
          <property name="frameShape">
@@ -114,6 +92,28 @@
          </widget>
         </widget>
        </item>
+       <item row="1" column="1">
+        <widget class="QListView" name="view_logging">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>400</width>
+           <height>300</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>600</width>
+           <height>600</height>
+          </size>
+         </property>
+        </widget>
+       </item>
        <item row="2" column="1">
         <widget class="QFrame" name="frame_4">
          <property name="frameShape">
@@ -122,20 +122,14 @@
          <property name="frameShadow">
           <enum>QFrame::Raised</enum>
          </property>
-         <widget class="QLabel" name="label_webmap">
+         <widget class="QWidget" name="widget_webmap" native="true">
           <property name="geometry">
            <rect>
-            <x>0</x>
-            <y>0</y>
-            <width>391</width>
-            <height>311</height>
+            <x>10</x>
+            <y>20</y>
+            <width>381</width>
+            <height>271</height>
            </rect>
-          </property>
-          <property name="text">
-           <string>web地图窗口</string>
-          </property>
-          <property name="scaledContents">
-           <bool>true</bool>
           </property>
          </widget>
         </widget>

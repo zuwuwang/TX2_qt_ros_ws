@@ -136,18 +136,27 @@ void MainWindow::on_button_connect_clicked(bool check ) {
   /*********************
    * node.start
    * ********************/
+  // cjl here
+  // load webmap
+
+   QWebView *webmap = new QWebView(this);
+   webmap->load(QUrl("file:///home/ubuntu/ctest/mymap.html"));
+   showSlamMap();
+
   qnode.start();
-  QImage slamImg;
-  slamImg.load("/home/ubuntu/qt_ros_ws/map/map.pgm");
-  ui.label_slammap->setPixmap(QPixmap::fromImage(slamImg));
   imagesavenode.start();
 // socketsendnode.start();
 }
 
-void MainWindow::showSlamImage(){
-
+void MainWindow::showSlamMap(){
+  QImage slamMap;
+  slamMap.load("/home/ubuntu/qt_ros_ws/map/map.pgm");
+  ui.label_slammap->setPixmap(QPixmap::fromImage(slamMap));
 }
 
+void MainWindow::showWebMap(){
+  ui.widget_webmap
+}
 void MainWindow::on_checkbox_use_environment_stateChanged(int state) {
 	bool enabled;
 	if ( state == 0 ) {
@@ -286,13 +295,7 @@ void MainWindow::on_button_saveMap_clicked(bool checked){
 }
 
 void MainWindow::on_button_loadMap_clicked(bool checked){
-  // todo
-  // how to show pgm image in qt ui with qimage class function
-//  QString slamMapFile;
-//  slamMapFile =
-//  qi
   system("gnome-terminal  -x bash -c ' roslaunch turtlebot_navigation sick_amcl_demo.launch map_file:=/home/ubuntu/qt_ros_ws/slam_map'&");
-
 }
 
 void MainWindow::on_button_rviz_clicked(bool checked){
