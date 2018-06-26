@@ -136,12 +136,8 @@ void MainWindow::on_button_connect_clicked(bool check ) {
   /*********************
    * node.start
    * ********************/
-  // cjl here
-  // load webmap
-
-   QWebView *webmap = new QWebView(this);
-   webmap->load(QUrl("file:///home/ubuntu/ctest/mymap.html"));
-   showSlamMap();
+  showWebMap();
+  showSlamMap();
 
   qnode.start();
   imagesavenode.start();
@@ -155,7 +151,11 @@ void MainWindow::showSlamMap(){
 }
 
 void MainWindow::showWebMap(){
-  ui.widget_webmap
+  QWebView *webmap = new QWebView(this);
+  webmap->load(QUrl("file:///home/ubuntu/qt_ros_ws/map/mymap.html"));
+  webmap->setFocus();
+  webmap->setGeometry(400,370,391,301);
+  webmap->show();
 }
 void MainWindow::on_checkbox_use_environment_stateChanged(int state) {
 	bool enabled;
