@@ -1,0 +1,38 @@
+void MainWindow::on_button_roscore_clicked(bool checked)
+{
+//  system("gnome-terminal -x bash -c 'source /home/nvidia/qt_ros_ws/devel/setup.bash;roscore limited:=true'&"); // this is run on TX2
+//  QWebView webmap;
+//  webmap.load(QUrl("http://www.baidu.com"));
+//  webmap.load(QUrl::fromLocalFile("file:///home/nvidia/qt_ros_ws/test.html"));
+//  webmap.show();
+  system("gnome-terminal  -x bash -c ' roscore '&");
+}
+
+void MainWindow::on_button_openCam_clicked(bool checked){
+  system("gnome-terminal  -x bash -c ' roslaunch ueye_cam rgb8.launch '&");
+}
+
+void MainWindow::on_button_onestepSLAM_clicked(bool checked){
+  // all in one launch file
+  //system("gnome-terminal -x bash -c 'source /home/ubuntu/turtlebot/devel/setup.bash;roslaunch turtlebot_bringup minimal.launch limited:=true'&");
+    system("gnome-terminal  -x bash -c ' roslaunch sick_tim ALL.launch '&");
+}
+
+void MainWindow::on_button_saveMap_clicked(bool checked){
+   system("gnome-terminal  -x bash -c ' rosrun map_server map_saver -f /home/ubuntu/qt_ros_ws/slam_map '&");
+}
+
+void MainWindow::on_button_loadMap_clicked(bool checked){
+  // todo
+  // how to show pgm image in qt ui with qimage class function
+//  QString slamMapFile;
+//  slamMapFile =
+//  qi
+  system("gnome-terminal  -x bash -c ' roslaunch turtlebot_navigation sick_amcl_demo.launch map_file:=/home/ubuntu/qt_ros_ws/slam_map'&");
+
+}
+
+void MainWindow::on_button_rviz_clicked(bool checked){
+    system("gnome-terminal  -x bash -c ' roslaunch turtlebot_rviz_launchers view_navigation.launch --screen '&");
+}
+

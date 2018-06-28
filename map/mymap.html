@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+    <title>浏览器定位</title>
+    <link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css"/>
+    <script type="text/javascript" src="http://webapi.amap.com/maps?v=1.4.6&key=您申请的key值"></script>
+    <script type="text/javascript" src="http://cache.amap.com/lbs/static/addToolbar.js"></script>
+<body>
+<div id='container'></div>
+  <div id="tip"></div>
+<script type="text/javascript">
+	var map, geolocation;
+	//初始化地图----地图加载 ----//
+    map = new AMap.Map("container", {
+        resizeEnable: true//,
+        //zoom:16,
+        //center: [121.393821,31.316051]
+    });
+    
+     //------地标建筑点标记--------//
+        var landmarks = [
+        [121.388988,31.316225],//益新食堂
+        [121.388876,31.317691],//山明食堂
+        [121.395699,31.316344],//水秀食堂
+        [121.391317,31.319263],//尔美食堂
+        [121.398618,31.314854],//东区食堂
+        [121.399438,31.317045],//翔英大楼
+        [121.399626,31.314204],//钱伟长图书馆
+        [121.392239,31.316857],//图书馆
+        [121.394203,31.318374],//音乐学院
+        [121.395469,31.317916],//伟长楼
+        [121.397427,31.318374],//东门
+        [121.389053,31.320464],//北门
+        [121.396005,31.311912],//南门
+        [121.387679,31.31521],//西门
+        [121.39884,31.312806],//经管楼
+        [121.390579,31.320478],//乐乎新楼
+    ];
+    
+ for (var i = 0; i < landmarks.length; i++) {   
+    var marker = new AMap.Marker({
+    					//icon: icon,
+    					position: landmarks[i],
+    					map: map
+    				})};
+    				
+ //       浏览器定位                                 //
+  map.plugin('AMap.Geolocation', function() {
+        geolocation = new AMap.Geolocation({
+            enableHighAccuracy: true,//是否使用高精度定位，默认:true
+            timeout: 10000,          //超过10秒后停止定位，默认：无穷大
+            buttonOffset: new AMap.Pixel(10, 20),//定位按钮与设置的停靠位置的偏移量，默认：Pixel(10, 20)
+            zoomToAccuracy: true,      //定位成功后调整地图视野范围使定位位置及精度范围视野内可见，默认：false
+            buttonPosition:'RB'
+        });
+        map.addControl(geolocation);
+        geolocation.getCurrentPosition();
+        AMap.event.addListener(geolocation, 'complete', onComplete);//返回定位信息
+        AMap.event.addListener(geolocation, 'error', onError);      //返回定位出错信息
+    });
+    //解析定位结果
+    function onComplete(data) {
+        var str=['定位成功'];
+        str.push('经度：' + data.position.getLng());
+        str.push('纬度：' + data.position.getLat());
+        if(data.accuracy){
+             str.push('精度：' + data.accuracy + ' 米');
+        }//如为IP精确定位结果则没有精度信息
+        str.push('是否经过偏移：' + (data.isConverted ? '是' : '否'));
+        document.getElementById('tip').innerHTML = str.join('<br>');
+    }
+    //解析定位错误信息
+    function onError(data) {
+        document.getElementById('tip').innerHTML = '定位失败';
+    }
+ 
+</script> 
+</body>
+</html>

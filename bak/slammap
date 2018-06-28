@@ -1,0 +1,3 @@
+  QImage slamImg;
+  slamImg.load("/home/ubuntu/qt_ros_ws/map/map.pgm");
+  ui.label_slammap->setPixmap(QPixmap::fromImage(slamImg));

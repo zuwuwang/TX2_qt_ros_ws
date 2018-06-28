@@ -1,0 +1,6 @@
+普通终端运行命令
+./natapp -authtoken=96d64ba4448d74eb
+
+后台运行命令
+nohup ./natapp -authtoken=96d64ba4448d74eb -log=stdout &
+
