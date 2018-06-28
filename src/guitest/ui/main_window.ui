@@ -308,7 +308,7 @@
               <string>Clear all waypoints and set the target to the current joint trajectory state.</string>
              </property>
              <property name="text">
-              <string>系统链接</string>
+              <string>系统开启</string>
              </property>
             </widget>
            </item>
@@ -347,7 +347,7 @@
             <item>
              <widget class="QPushButton" name="button_onestepSLAM">
               <property name="text">
-               <string>打开相机</string>
+               <string>激光SLAM</string>
               </property>
              </widget>
             </item>
@@ -391,7 +391,7 @@
         <item>
          <widget class="QGroupBox" name="groupBox_4">
           <property name="title">
-           <string>Navagitaion</string>
+           <string>导航任务</string>
           </property>
           <widget class="QWidget" name="horizontalLayoutWidget_4">
            <property name="geometry">

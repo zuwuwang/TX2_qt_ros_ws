@@ -85,7 +85,7 @@ void MainWindow::showSocketInitFailedMessage()
  * is already checked or not.
  */
 
-void MainWindow::on_button_connect_clicked(bool check ) {
+void MainWindow::on_button_connect_clicked(bool checked ) {
 //  if ( ui.checkbox_use_environment->isChecked() )
 //  {
 //    if ( !qnode.init() )
@@ -114,34 +114,26 @@ void MainWindow::on_button_connect_clicked(bool check ) {
 //    system("gnome-terminal  -x bash -c ' roslaunch turtlebot_bringup minimal.launch'&");
 
     // imagesavenode  init
-    if( ! imagesavenode.init() )
-    {
-      showNoMasterMessage();
-    }
-    else
-    {
-
-    }
-
+//    if( ! imagesavenode.init() )
+//    {
+//      showNoMasterMessage();
+//    }
   // socketsendnode init
-//    if( ! socketsendnode.init() )
-//    {
-//       showSocketInitFailedMessage();
-//    }
-//    else
-//    {
-
-//    }
-   // mcnnResaultShow  test
+    if( ! socketsendnode.init() )
+    {
+       showSocketInitFailedMessage();
+    }
+  // mcnnResaultShow  test
   /*********************
    * node.start
    * ********************/
   showWebMap();
   showSlamMap();
-
+  mcnnResaultShow();
   qnode.start();
-  imagesavenode.start();
-// socketsendnode.start();
+ // imagesavenode.start();
+  socketsendnode.start();
+
 }
 
 void MainWindow::showSlamMap(){
@@ -183,9 +175,6 @@ void MainWindow::updateLoggingView() {
 }
 
 void MainWindow::displayCameraImageLabel(){
-  //TODO
-  // display image in widget
-         //ui.label_cameraImg->
   struct tm* fileTime;
   char filePath[100] = {0};
   char fileName[100] = {0};
@@ -203,8 +192,8 @@ void MainWindow::displayCameraImageLabel(){
   QImage cameraImageScaled;
   cameraImageScaled = idsImage.scaled(ui.label_cameraImg->size(),Qt::KeepAspectRatio);
   ui.label_cameraImg->setPixmap(QPixmap::fromImage(cameraImageScaled));
-}
 
+}
 
 void MainWindow::mcnnResaultShow(){
   num =atof(socketsendnode.peopleNum);
@@ -272,11 +261,6 @@ void MainWindow::closeEvent(QCloseEvent *event)
 
 void MainWindow::on_button_roscore_clicked(bool checked)
 {
-//  system("gnome-terminal -x bash -c 'source /home/nvidia/qt_ros_ws/devel/setup.bash;roscore limited:=true'&"); // this is run on TX2
-//  QWebView webmap;
-//  webmap.load(QUrl("http://www.baidu.com"));
-//  webmap.load(QUrl::fromLocalFile("file:///home/nvidia/qt_ros_ws/test.html"));
-//  webmap.show();
   system("gnome-terminal  -x bash -c ' roscore '&");
 }
 
@@ -285,8 +269,6 @@ void MainWindow::on_button_openCam_clicked(bool checked){
 }
 
 void MainWindow::on_button_onestepSLAM_clicked(bool checked){
-  // all in one launch file
-  //system("gnome-terminal -x bash -c 'source /home/ubuntu/turtlebot/devel/setup.bash;roslaunch turtlebot_bringup minimal.launch limited:=true'&");
     system("gnome-terminal  -x bash -c ' roslaunch sick_tim ALL.launch '&");
 }
 

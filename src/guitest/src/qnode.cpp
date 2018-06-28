@@ -80,7 +80,7 @@ void QNode::run() {
 		msg.data = ss.str();
 		chatter_publisher.publish(msg);
 		log(Info,std::string("I sent: ")+msg.data);
-		ros::spinOnce();
+    ros::spinOnce();
 		loop_rate.sleep();
 		++count;
 	}

@@ -97,14 +97,14 @@ bool SocketSendNode::init() {
 
 void SocketSendNode::run() {
   ros::NodeHandle n;
-  ros::Rate loop_rate(0.5);
+  ros::Rate loop_rate(0.1);
   while( ros::ok() )
   {
     // ros img to opencv img
     image_transport::ImageTransport transport_socket(n);
     socketSend_subscriber = transport_socket.subscribe("/camera/image_raw",1,&SocketSendNode::socketSendImage,this); // TX2 different
     socketSendFlag = true;
-    ros::spinOnce();
+    //ros::spin();
     loop_rate.sleep();
   }
   std::cout << "Ros shutdown, proceeding to close the gui." << std::endl;
@@ -168,8 +168,10 @@ void SocketSendNode::socketSendImage(const sensor_msgs::ImageConstPtr &msg){
             count = count +1;
           }
         // receive resault
-        recv(client_socket, peopleNum, 20, 0);
+         //peopleNum = "8";
+         recv(client_socket, peopleNum, 20, 0);
         // ui display mcnnResault
+
          Q_EMIT mcnnResault();
        }
         catch (cv_bridge::Exception& e)
