@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1165</width>
-    <height>734</height>
+    <width>1170</width>
+    <height>782</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -37,7 +37,7 @@
        </sizepolicy>
       </property>
       <property name="title">
-       <string>                                                         第十三届中国研究生电子设计竞赛上海赛区</string>
+       <string>                                                                     第十三届中国研究生电子设计竞赛上海赛区</string>
       </property>
       <layout class="QGridLayout" name="gridLayout_3">
        <item row="1" column="0">
@@ -52,9 +52,9 @@
           <property name="geometry">
            <rect>
             <x>0</x>
-            <y>10</y>
-            <width>371</width>
-            <height>300</height>
+            <y>0</y>
+            <width>361</width>
+            <height>331</height>
            </rect>
           </property>
           <property name="text">
@@ -78,9 +78,9 @@
           <property name="geometry">
            <rect>
             <x>0</x>
-            <y>10</y>
+            <y>0</y>
             <width>361</width>
-            <height>300</height>
+            <height>331</height>
            </rect>
           </property>
           <property name="text">
@@ -122,16 +122,6 @@
          <property name="frameShadow">
           <enum>QFrame::Raised</enum>
          </property>
-         <widget class="QGraphicsView" name="graphicsView">
-          <property name="geometry">
-           <rect>
-            <x>5</x>
-            <y>11</y>
-            <width>391</width>
-            <height>301</height>
-           </rect>
-          </property>
-         </widget>
         </widget>
        </item>
       </layout>
@@ -144,7 +134,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1165</width>
+     <width>1170</width>
      <height>19</height>
     </rect>
    </property>
@@ -239,7 +229,7 @@
            <item row="1" column="0" colspan="3">
             <widget class="QLineEdit" name="line_edit_master">
              <property name="sizePolicy">
-              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
                <horstretch>0</horstretch>
                <verstretch>0</verstretch>
               </sizepolicy>
@@ -265,7 +255,7 @@
            <item row="3" column="0" colspan="3">
             <widget class="QLineEdit" name="line_edit_host">
              <property name="sizePolicy">
-              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
                <horstretch>0</horstretch>
                <verstretch>0</verstretch>
               </sizepolicy>
@@ -308,59 +298,127 @@
              </property>
             </widget>
            </item>
-           <item row="8" column="2">
-            <widget class="QPushButton" name="button_connect">
-             <property name="enabled">
-              <bool>true</bool>
-             </property>
-             <property name="sizePolicy">
-              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-               <horstretch>0</horstretch>
-               <verstretch>0</verstretch>
-              </sizepolicy>
-             </property>
-             <property name="toolTip">
-              <string>Set the target to the current joint trajectory state.</string>
-             </property>
-             <property name="statusTip">
-              <string>Clear all waypoints and set the target to the current joint trajectory state.</string>
-             </property>
-             <property name="text">
-              <string>系统开启</string>
-             </property>
-            </widget>
-           </item>
-           <item row="8" column="0">
-            <widget class="QPushButton" name="button_roscore">
-             <property name="sizePolicy">
-              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-               <horstretch>0</horstretch>
-               <verstretch>0</verstretch>
-              </sizepolicy>
-             </property>
-             <property name="text">
-              <string>roscore</string>
-             </property>
-            </widget>
-           </item>
-           <item row="8" column="1">
-            <widget class="QPushButton" name="button_openCam">
-             <property name="sizePolicy">
-              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-               <horstretch>0</horstretch>
-               <verstretch>0</verstretch>
-              </sizepolicy>
-             </property>
-             <property name="text">
-              <string>打开相机</string>
-             </property>
-            </widget>
-           </item>
           </layout>
          </widget>
         </item>
         <item>
+         <widget class="QGroupBox" name="groupBox_3">
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="title">
+           <string>GroupBox</string>
+          </property>
+          <widget class="QWidget" name="horizontalLayoutWidget_6">
+           <property name="geometry">
+            <rect>
+             <x>40</x>
+             <y>20</y>
+             <width>241</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_6">
+            <item>
+             <widget class="QPushButton" name="button_roscore">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string>roscore</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="button_openCam">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string>打开相机</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="horizontalLayoutWidget_7">
+           <property name="geometry">
+            <rect>
+             <x>40</x>
+             <y>50</y>
+             <width>241</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_7">
+            <item>
+             <widget class="QPushButton" name="button_connect_turtlebot">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>40</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>连接小车</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="button_connect">
+              <property name="enabled">
+               <bool>true</bool>
+              </property>
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="toolTip">
+               <string>Set the target to the current joint trajectory state.</string>
+              </property>
+              <property name="statusTip">
+               <string>Clear all waypoints and set the target to the current joint trajectory state.</string>
+              </property>
+              <property name="text">
+               <string>系统开启</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <zorder>button_roscore</zorder>
+          <zorder>button_openCam</zorder>
+          <zorder>button_connect_turtlebot</zorder>
+          <zorder>button_connect</zorder>
+          <zorder>horizontalLayoutWidget_6</zorder>
+          <zorder>horizontalLayoutWidget_7</zorder>
+         </widget>
+        </item>
+        <item>
          <widget class="QGroupBox" name="groupBox_2">
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>90</height>
+           </size>
+          </property>
           <property name="title">
            <string>地图构建与导航</string>
           </property>
@@ -368,7 +426,7 @@
            <property name="geometry">
             <rect>
              <x>40</x>
-             <y>20</y>
+             <y>30</y>
              <width>241</width>
              <height>31</height>
             </rect>
@@ -394,7 +452,7 @@
            <property name="geometry">
             <rect>
              <x>40</x>
-             <y>50</y>
+             <y>60</y>
              <width>241</width>
              <height>31</height>
             </rect>
@@ -420,14 +478,20 @@
         </item>
         <item>
          <widget class="QGroupBox" name="groupBox_4">
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>70</height>
+           </size>
+          </property>
           <property name="title">
-           <string>导航 人机交互</string>
+           <string>导航与语音人机交互</string>
           </property>
           <widget class="QWidget" name="horizontalLayoutWidget_4">
            <property name="geometry">
             <rect>
              <x>40</x>
-             <y>20</y>
+             <y>30</y>
              <width>241</width>
              <height>31</height>
             </rect>
@@ -498,41 +562,16 @@
             </item>
            </layout>
           </widget>
-          <widget class="QWidget" name="horizontalLayoutWidget_3">
-           <property name="geometry">
-            <rect>
-             <x>40</x>
-             <y>50</y>
-             <width>241</width>
-             <height>31</height>
-            </rect>
-           </property>
-           <layout class="QHBoxLayout" name="horizontalLayout_3">
-            <item>
-             <widget class="QPushButton" name="button_connect_turtlebot">
-              <property name="sizePolicy">
-               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                <horstretch>0</horstretch>
-                <verstretch>0</verstretch>
-               </sizepolicy>
-              </property>
-              <property name="minimumSize">
-               <size>
-                <width>40</width>
-                <height>0</height>
-               </size>
-              </property>
-              <property name="text">
-               <string>连接小车</string>
-              </property>
-             </widget>
-            </item>
-           </layout>
-          </widget>
          </widget>
         </item>
         <item>
          <widget class="QGroupBox" name="groupBox_5">
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>70</height>
+           </size>
+          </property>
           <property name="title">
            <string>场景异常检测结果</string>
           </property>
@@ -540,16 +579,16 @@
            <property name="geometry">
             <rect>
              <x>39</x>
-             <y>20</y>
+             <y>30</y>
              <width>241</width>
-             <height>51</height>
+             <height>31</height>
             </rect>
            </property>
            <layout class="QHBoxLayout" name="horizontalLayout_5">
             <item>
              <widget class="QLabel" name="label_4">
               <property name="text">
-               <string>人群人数:</string>
+               <string>场景人数统计:</string>
               </property>
              </widget>
             </item>

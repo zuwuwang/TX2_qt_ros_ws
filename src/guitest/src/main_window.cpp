@@ -111,13 +111,13 @@ void MainWindow::on_button_connect_clicked(bool checked ) {
     }
 
     // robot connection
-    system("gnome-terminal  -x bash -c ' roslaunch turtlebot_bringup minimal.launch'&");
+   // system("gnome-terminal  -x bash -c ' roslaunch turtlebot_bringup minimal.launch'&");
 
     // imagesavenode  init
-//    if( ! imagesavenode.init() )
-//    {
-//      showNoMasterMessage();
-//    }
+    if( ! imagesavenode.init() )
+    {
+      showNoMasterMessage();
+    }
   // socketsendnode init
 //    if( ! socketsendnode.init() )
 //    {
@@ -131,7 +131,7 @@ void MainWindow::on_button_connect_clicked(bool checked ) {
   showSlamMap();
   mcnnResaultShow();
   qnode.start();
-//  imagesavenode.start();
+  imagesavenode.start();
  // socketsendnode.start();
 
 }
@@ -146,7 +146,7 @@ void MainWindow::showWebMap(){
   QWebView *webmap = new QWebView(this);
   webmap->load(QUrl("file:///home/ubuntu/qt_ros_ws/map/mymap.html"));
   webmap->setFocus();
-  webmap->setGeometry(400,370,391,301);
+  webmap->setGeometry(385,377,401,327);
   webmap->show();
 }
 void MainWindow::on_checkbox_use_environment_stateChanged(int state) {
@@ -264,6 +264,9 @@ void MainWindow::on_button_roscore_clicked(bool checked)
   system("gnome-terminal  -x bash -c ' roscore '&");
 }
 
+void MainWindow::on_button_connect_turtlebot_clicked(bool checked){
+  system("gnome-terminal  -x bash -c ' roslaunch turtlebot_bringup minimal.launch '&");
+}
 void MainWindow::on_button_openCam_clicked(bool checked){
   system("gnome-terminal  -x bash -c ' roslaunch ueye_cam rgb8.launch '&");
 }

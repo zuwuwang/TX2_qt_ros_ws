@@ -22,7 +22,7 @@ static const uint qt_meta_data_guitest__MainWindow[] = {
        6,       // revision
        0,       // classname
        0,    0, // classinfo
-      15,   14, // methods
+      16,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -40,11 +40,12 @@ static const uint qt_meta_data_guitest__MainWindow[] = {
      272,  304,   47,   47, 0x0a,
      312,   80,   47,   47, 0x0a,
      341,   80,   47,   47, 0x0a,
-     369,   80,   47,   47, 0x0a,
-     397,   80,   47,   47, 0x0a,
-     428,   47,   47,   47, 0x0a,
-     448,   47,   47,   47, 0x0a,
-     474,   47,   47,   47, 0x0a,
+     383,   80,   47,   47, 0x0a,
+     411,   80,   47,   47, 0x0a,
+     439,   80,   47,   47, 0x0a,
+     470,   47,   47,   47, 0x0a,
+     490,   47,   47,   47, 0x0a,
+     516,   47,   47,   47, 0x0a,
 
        0        // eod
 };
@@ -59,6 +60,7 @@ static const char qt_meta_stringdata_guitest__MainWindow[] = {
     "on_button_saveMap_clicked(bool)\0"
     "on_button_loadMap_clicked(bool)\0ckecked\0"
     "on_button_rviz_clicked(bool)\0"
+    "on_button_connect_turtlebot_clicked(bool)\0"
     "on_button_gps_clicked(bool)\0"
     "on_button_nav_clicked(bool)\0"
     "on_button_speech_clicked(bool)\0"
@@ -81,12 +83,13 @@ void guitest::MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, 
         case 6: _t->on_button_saveMap_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
         case 7: _t->on_button_loadMap_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
         case 8: _t->on_button_rviz_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
-        case 9: _t->on_button_gps_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
-        case 10: _t->on_button_nav_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
-        case 11: _t->on_button_speech_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
-        case 12: _t->updateLoggingView(); break;
-        case 13: _t->displayCameraImageLabel(); break;
-        case 14: _t->mcnnResaultShow(); break;
+        case 9: _t->on_button_connect_turtlebot_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 10: _t->on_button_gps_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 11: _t->on_button_nav_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 12: _t->on_button_speech_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 13: _t->updateLoggingView(); break;
+        case 14: _t->displayCameraImageLabel(); break;
+        case 15: _t->mcnnResaultShow(); break;
         default: ;
         }
     }
@@ -124,9 +127,9 @@ int guitest::MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 15)
+        if (_id < 16)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 15;
+        _id -= 16;
     }
     return _id;
 }

@@ -1,4 +1,5 @@
-#!/usr/bin/env python  
+#!/usr/bin/env python 
+#-*-coding:UTF-8-*- 
 import rospy  
 import actionlib  
 from actionlib_msgs.msg import *  
@@ -130,6 +131,9 @@ class MultiNav():
             # Allow 5 minutes to get there  
             finished_within_time = self.move_base.wait_for_result(rospy.Duration(300))  
   
+	    #tent42
+	    statss = self.move_base.cancel_goal() 
+            rospy.loginfo("目前机器人状态:::: " + str(goal_states[statss]))  
             # Check for success or failure  
             if not finished_within_time:  
                 self.move_base.cancel_goal()  

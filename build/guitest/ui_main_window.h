@@ -17,7 +17,6 @@
 #include <QtGui/QCheckBox>
 #include <QtGui/QDockWidget>
 #include <QtGui/QFrame>
-#include <QtGui/QGraphicsView>
 #include <QtGui/QGridLayout>
 #include <QtGui/QGroupBox>
 #include <QtGui/QHBoxLayout>
@@ -52,7 +51,6 @@ public:
     QLabel *label_slammap;
     QListView *view_logging;
     QFrame *frame_4;
-    QGraphicsView *graphicsView;
     QMenuBar *menubar;
     QMenu *menu_File;
     QStatusBar *statusbar;
@@ -71,9 +69,15 @@ public:
     QLabel *label_3;
     QLineEdit *line_edit_topic;
     QCheckBox *checkbox_remember_settings;
-    QPushButton *button_connect;
+    QGroupBox *groupBox_3;
+    QWidget *horizontalLayoutWidget_6;
+    QHBoxLayout *horizontalLayout_6;
     QPushButton *button_roscore;
     QPushButton *button_openCam;
+    QWidget *horizontalLayoutWidget_7;
+    QHBoxLayout *horizontalLayout_7;
+    QPushButton *button_connect_turtlebot;
+    QPushButton *button_connect;
     QGroupBox *groupBox_2;
     QWidget *horizontalLayoutWidget;
     QHBoxLayout *horizontalLayout;
@@ -89,9 +93,6 @@ public:
     QPushButton *button_gps;
     QPushButton *button_nav;
     QPushButton *button_speech;
-    QWidget *horizontalLayoutWidget_3;
-    QHBoxLayout *horizontalLayout_3;
-    QPushButton *pushButton;
     QGroupBox *groupBox_5;
     QWidget *horizontalLayoutWidget_5;
     QHBoxLayout *horizontalLayout_5;
@@ -103,7 +104,7 @@ public:
     {
         if (MainWindowDesign->objectName().isEmpty())
             MainWindowDesign->setObjectName(QString::fromUtf8("MainWindowDesign"));
-        MainWindowDesign->resize(1165, 734);
+        MainWindowDesign->resize(1170, 782);
         QSizePolicy sizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
@@ -141,7 +142,7 @@ public:
         frame_2->setFrameShadow(QFrame::Raised);
         label_cameraImg = new QLabel(frame_2);
         label_cameraImg->setObjectName(QString::fromUtf8("label_cameraImg"));
-        label_cameraImg->setGeometry(QRect(0, 10, 371, 300));
+        label_cameraImg->setGeometry(QRect(0, 0, 361, 331));
         label_cameraImg->setScaledContents(true);
 
         gridLayout_3->addWidget(frame_2, 1, 0, 1, 1);
@@ -152,7 +153,7 @@ public:
         frame_3->setFrameShadow(QFrame::Raised);
         label_slammap = new QLabel(frame_3);
         label_slammap->setObjectName(QString::fromUtf8("label_slammap"));
-        label_slammap->setGeometry(QRect(0, 10, 361, 300));
+        label_slammap->setGeometry(QRect(0, 0, 361, 331));
         label_slammap->setScaledContents(true);
 
         gridLayout_3->addWidget(frame_3, 2, 0, 1, 1);
@@ -170,9 +171,6 @@ public:
         frame_4->setObjectName(QString::fromUtf8("frame_4"));
         frame_4->setFrameShape(QFrame::StyledPanel);
         frame_4->setFrameShadow(QFrame::Raised);
-        graphicsView = new QGraphicsView(frame_4);
-        graphicsView->setObjectName(QString::fromUtf8("graphicsView"));
-        graphicsView->setGeometry(QRect(5, 11, 391, 301));
 
         gridLayout_3->addWidget(frame_4, 2, 1, 1, 1);
 
@@ -182,7 +180,7 @@ public:
         MainWindowDesign->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindowDesign);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 1165, 19));
+        menubar->setGeometry(QRect(0, 0, 1170, 19));
         menu_File = new QMenu(menubar);
         menu_File->setObjectName(QString::fromUtf8("menu_File"));
         MainWindowDesign->setMenuBar(menubar);
@@ -197,7 +195,7 @@ public:
         sizePolicy2.setHeightForWidth(dock_status->sizePolicy().hasHeightForWidth());
         dock_status->setSizePolicy(sizePolicy2);
         dock_status->setMinimumSize(QSize(350, 560));
-        dock_status->setMaximumSize(QSize(300, 524287));
+        dock_status->setMaximumSize(QSize(350, 524287));
         dock_status->setAllowedAreas(Qt::RightDockWidgetArea);
         dockWidgetContents_2 = new QWidget();
         dockWidgetContents_2->setObjectName(QString::fromUtf8("dockWidgetContents_2"));
@@ -233,8 +231,11 @@ public:
 
         line_edit_master = new QLineEdit(groupBox);
         line_edit_master->setObjectName(QString::fromUtf8("line_edit_master"));
-        sizePolicy.setHeightForWidth(line_edit_master->sizePolicy().hasHeightForWidth());
-        line_edit_master->setSizePolicy(sizePolicy);
+        QSizePolicy sizePolicy4(QSizePolicy::Expanding, QSizePolicy::Fixed);
+        sizePolicy4.setHorizontalStretch(0);
+        sizePolicy4.setVerticalStretch(0);
+        sizePolicy4.setHeightForWidth(line_edit_master->sizePolicy().hasHeightForWidth());
+        line_edit_master->setSizePolicy(sizePolicy4);
 
         gridLayout->addWidget(line_edit_master, 1, 0, 1, 3);
 
@@ -247,8 +248,11 @@ public:
 
         line_edit_host = new QLineEdit(groupBox);
         line_edit_host->setObjectName(QString::fromUtf8("line_edit_host"));
-        sizePolicy.setHeightForWidth(line_edit_host->sizePolicy().hasHeightForWidth());
-        line_edit_host->setSizePolicy(sizePolicy);
+        QSizePolicy sizePolicy5(QSizePolicy::MinimumExpanding, QSizePolicy::Fixed);
+        sizePolicy5.setHorizontalStretch(0);
+        sizePolicy5.setVerticalStretch(0);
+        sizePolicy5.setHeightForWidth(line_edit_host->sizePolicy().hasHeightForWidth());
+        line_edit_host->setSizePolicy(sizePolicy5);
 
         gridLayout->addWidget(line_edit_host, 3, 0, 1, 3);
 
@@ -271,36 +275,69 @@ public:
 
         gridLayout->addWidget(checkbox_remember_settings, 7, 0, 1, 3);
 
-        button_connect = new QPushButton(groupBox);
+
+        verticalLayout_3->addWidget(groupBox);
+
+        groupBox_3 = new QGroupBox(frame);
+        groupBox_3->setObjectName(QString::fromUtf8("groupBox_3"));
+        groupBox_3->setMaximumSize(QSize(16777215, 90));
+        horizontalLayoutWidget_6 = new QWidget(groupBox_3);
+        horizontalLayoutWidget_6->setObjectName(QString::fromUtf8("horizontalLayoutWidget_6"));
+        horizontalLayoutWidget_6->setGeometry(QRect(40, 20, 241, 31));
+        horizontalLayout_6 = new QHBoxLayout(horizontalLayoutWidget_6);
+        horizontalLayout_6->setObjectName(QString::fromUtf8("horizontalLayout_6"));
+        horizontalLayout_6->setContentsMargins(0, 0, 0, 0);
+        button_roscore = new QPushButton(horizontalLayoutWidget_6);
+        button_roscore->setObjectName(QString::fromUtf8("button_roscore"));
+        sizePolicy.setHeightForWidth(button_roscore->sizePolicy().hasHeightForWidth());
+        button_roscore->setSizePolicy(sizePolicy);
+
+        horizontalLayout_6->addWidget(button_roscore);
+
+        button_openCam = new QPushButton(horizontalLayoutWidget_6);
+        button_openCam->setObjectName(QString::fromUtf8("button_openCam"));
+        sizePolicy.setHeightForWidth(button_openCam->sizePolicy().hasHeightForWidth());
+        button_openCam->setSizePolicy(sizePolicy);
+
+        horizontalLayout_6->addWidget(button_openCam);
+
+        horizontalLayoutWidget_7 = new QWidget(groupBox_3);
+        horizontalLayoutWidget_7->setObjectName(QString::fromUtf8("horizontalLayoutWidget_7"));
+        horizontalLayoutWidget_7->setGeometry(QRect(40, 50, 241, 31));
+        horizontalLayout_7 = new QHBoxLayout(horizontalLayoutWidget_7);
+        horizontalLayout_7->setObjectName(QString::fromUtf8("horizontalLayout_7"));
+        horizontalLayout_7->setContentsMargins(0, 0, 0, 0);
+        button_connect_turtlebot = new QPushButton(horizontalLayoutWidget_7);
+        button_connect_turtlebot->setObjectName(QString::fromUtf8("button_connect_turtlebot"));
+        sizePolicy.setHeightForWidth(button_connect_turtlebot->sizePolicy().hasHeightForWidth());
+        button_connect_turtlebot->setSizePolicy(sizePolicy);
+        button_connect_turtlebot->setMinimumSize(QSize(40, 0));
+
+        horizontalLayout_7->addWidget(button_connect_turtlebot);
+
+        button_connect = new QPushButton(horizontalLayoutWidget_7);
         button_connect->setObjectName(QString::fromUtf8("button_connect"));
         button_connect->setEnabled(true);
         sizePolicy.setHeightForWidth(button_connect->sizePolicy().hasHeightForWidth());
         button_connect->setSizePolicy(sizePolicy);
 
-        gridLayout->addWidget(button_connect, 8, 2, 1, 1);
+        horizontalLayout_7->addWidget(button_connect);
 
-        button_roscore = new QPushButton(groupBox);
-        button_roscore->setObjectName(QString::fromUtf8("button_roscore"));
-        sizePolicy.setHeightForWidth(button_roscore->sizePolicy().hasHeightForWidth());
-        button_roscore->setSizePolicy(sizePolicy);
+        button_roscore->raise();
+        button_openCam->raise();
+        button_connect_turtlebot->raise();
+        button_connect->raise();
+        horizontalLayoutWidget_6->raise();
+        horizontalLayoutWidget_7->raise();
 
-        gridLayout->addWidget(button_roscore, 8, 0, 1, 1);
-
-        button_openCam = new QPushButton(groupBox);
-        button_openCam->setObjectName(QString::fromUtf8("button_openCam"));
-        sizePolicy.setHeightForWidth(button_openCam->sizePolicy().hasHeightForWidth());
-        button_openCam->setSizePolicy(sizePolicy);
-
-        gridLayout->addWidget(button_openCam, 8, 1, 1, 1);
-
-
-        verticalLayout_3->addWidget(groupBox);
+        verticalLayout_3->addWidget(groupBox_3);
 
         groupBox_2 = new QGroupBox(frame);
         groupBox_2->setObjectName(QString::fromUtf8("groupBox_2"));
+        groupBox_2->setMaximumSize(QSize(16777215, 90));
         horizontalLayoutWidget = new QWidget(groupBox_2);
         horizontalLayoutWidget->setObjectName(QString::fromUtf8("horizontalLayoutWidget"));
-        horizontalLayoutWidget->setGeometry(QRect(40, 20, 241, 31));
+        horizontalLayoutWidget->setGeometry(QRect(40, 30, 241, 31));
         horizontalLayout = new QHBoxLayout(horizontalLayoutWidget);
         horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         horizontalLayout->setContentsMargins(0, 0, 0, 0);
@@ -316,7 +353,7 @@ public:
 
         horizontalLayoutWidget_2 = new QWidget(groupBox_2);
         horizontalLayoutWidget_2->setObjectName(QString::fromUtf8("horizontalLayoutWidget_2"));
-        horizontalLayoutWidget_2->setGeometry(QRect(40, 50, 241, 31));
+        horizontalLayoutWidget_2->setGeometry(QRect(40, 60, 241, 31));
         horizontalLayout_2 = new QHBoxLayout(horizontalLayoutWidget_2);
         horizontalLayout_2->setObjectName(QString::fromUtf8("horizontalLayout_2"));
         horizontalLayout_2->setContentsMargins(0, 0, 0, 0);
@@ -335,9 +372,10 @@ public:
 
         groupBox_4 = new QGroupBox(frame);
         groupBox_4->setObjectName(QString::fromUtf8("groupBox_4"));
+        groupBox_4->setMaximumSize(QSize(16777215, 70));
         horizontalLayoutWidget_4 = new QWidget(groupBox_4);
         horizontalLayoutWidget_4->setObjectName(QString::fromUtf8("horizontalLayoutWidget_4"));
-        horizontalLayoutWidget_4->setGeometry(QRect(40, 20, 241, 31));
+        horizontalLayoutWidget_4->setGeometry(QRect(40, 30, 241, 31));
         horizontalLayout_4 = new QHBoxLayout(horizontalLayoutWidget_4);
         horizontalLayout_4->setObjectName(QString::fromUtf8("horizontalLayout_4"));
         horizontalLayout_4->setContentsMargins(0, 0, 0, 0);
@@ -366,28 +404,15 @@ public:
 
         horizontalLayout_4->addWidget(button_speech);
 
-        horizontalLayoutWidget_3 = new QWidget(groupBox_4);
-        horizontalLayoutWidget_3->setObjectName(QString::fromUtf8("horizontalLayoutWidget_3"));
-        horizontalLayoutWidget_3->setGeometry(QRect(40, 50, 241, 31));
-        horizontalLayout_3 = new QHBoxLayout(horizontalLayoutWidget_3);
-        horizontalLayout_3->setObjectName(QString::fromUtf8("horizontalLayout_3"));
-        horizontalLayout_3->setContentsMargins(0, 0, 0, 0);
-        pushButton = new QPushButton(horizontalLayoutWidget_3);
-        pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        sizePolicy.setHeightForWidth(pushButton->sizePolicy().hasHeightForWidth());
-        pushButton->setSizePolicy(sizePolicy);
-        pushButton->setMinimumSize(QSize(40, 0));
-
-        horizontalLayout_3->addWidget(pushButton);
-
 
         verticalLayout_3->addWidget(groupBox_4);
 
         groupBox_5 = new QGroupBox(frame);
         groupBox_5->setObjectName(QString::fromUtf8("groupBox_5"));
+        groupBox_5->setMaximumSize(QSize(16777215, 70));
         horizontalLayoutWidget_5 = new QWidget(groupBox_5);
         horizontalLayoutWidget_5->setObjectName(QString::fromUtf8("horizontalLayoutWidget_5"));
-        horizontalLayoutWidget_5->setGeometry(QRect(39, 20, 241, 51));
+        horizontalLayoutWidget_5->setGeometry(QRect(39, 30, 241, 31));
         horizontalLayout_5 = new QHBoxLayout(horizontalLayoutWidget_5);
         horizontalLayout_5->setObjectName(QString::fromUtf8("horizontalLayout_5"));
         horizontalLayout_5->setContentsMargins(0, 0, 0, 0);
@@ -409,11 +434,8 @@ public:
 
         quit_button = new QPushButton(dockWidgetContents_2);
         quit_button->setObjectName(QString::fromUtf8("quit_button"));
-        QSizePolicy sizePolicy4(QSizePolicy::MinimumExpanding, QSizePolicy::Fixed);
-        sizePolicy4.setHorizontalStretch(0);
-        sizePolicy4.setVerticalStretch(0);
-        sizePolicy4.setHeightForWidth(quit_button->sizePolicy().hasHeightForWidth());
-        quit_button->setSizePolicy(sizePolicy4);
+        sizePolicy5.setHeightForWidth(quit_button->sizePolicy().hasHeightForWidth());
+        quit_button->setSizePolicy(sizePolicy5);
 
         verticalLayout->addWidget(quit_button);
 
@@ -443,7 +465,7 @@ public:
         action_Preferences->setText(QApplication::translate("MainWindowDesign", "&Preferences", 0, QApplication::UnicodeUTF8));
         actionAbout->setText(QApplication::translate("MainWindowDesign", "&About", 0, QApplication::UnicodeUTF8));
         actionAbout_Qt->setText(QApplication::translate("MainWindowDesign", "About &Qt", 0, QApplication::UnicodeUTF8));
-        groupBox_12->setTitle(QApplication::translate("MainWindowDesign", "                                                         \347\254\254\345\215\201\344\270\211\345\261\212\344\270\255\345\233\275\347\240\224\347\251\266\347\224\237\347\224\265\345\255\220\350\256\276\350\256\241\347\253\236\350\265\233\344\270\212\346\265\267\350\265\233\345\214\272", 0, QApplication::UnicodeUTF8));
+        groupBox_12->setTitle(QApplication::translate("MainWindowDesign", "                                                                     \347\254\254\345\215\201\344\270\211\345\261\212\344\270\255\345\233\275\347\240\224\347\251\266\347\224\237\347\224\265\345\255\220\350\256\276\350\256\241\347\253\236\350\265\233\344\270\212\346\265\267\350\265\233\345\214\272", 0, QApplication::UnicodeUTF8));
         label_cameraImg->setText(QApplication::translate("MainWindowDesign", "\347\233\270\346\234\272\345\233\276\345\203\217", 0, QApplication::UnicodeUTF8));
         label_slammap->setText(QApplication::translate("MainWindowDesign", "slam\345\234\260\345\233\276\347\252\227\345\217\243", 0, QApplication::UnicodeUTF8));
         menu_File->setTitle(QApplication::translate("MainWindowDesign", "&App", 0, QApplication::UnicodeUTF8));
@@ -457,6 +479,10 @@ public:
         label_3->setText(QApplication::translate("MainWindowDesign", "ROS\344\270\273\346\234\272\345\220\215", 0, QApplication::UnicodeUTF8));
         line_edit_topic->setText(QApplication::translate("MainWindowDesign", "unused", 0, QApplication::UnicodeUTF8));
         checkbox_remember_settings->setText(QApplication::translate("MainWindowDesign", "Remember settings on startup", 0, QApplication::UnicodeUTF8));
+        groupBox_3->setTitle(QApplication::translate("MainWindowDesign", "GroupBox", 0, QApplication::UnicodeUTF8));
+        button_roscore->setText(QApplication::translate("MainWindowDesign", "roscore", 0, QApplication::UnicodeUTF8));
+        button_openCam->setText(QApplication::translate("MainWindowDesign", "\346\211\223\345\274\200\347\233\270\346\234\272", 0, QApplication::UnicodeUTF8));
+        button_connect_turtlebot->setText(QApplication::translate("MainWindowDesign", "\350\277\236\346\216\245\345\260\217\350\275\246", 0, QApplication::UnicodeUTF8));
 #ifndef QT_NO_TOOLTIP
         button_connect->setToolTip(QApplication::translate("MainWindowDesign", "Set the target to the current joint trajectory state.", 0, QApplication::UnicodeUTF8));
 #endif // QT_NO_TOOLTIP
@@ -464,20 +490,17 @@ public:
         button_connect->setStatusTip(QApplication::translate("MainWindowDesign", "Clear all waypoints and set the target to the current joint trajectory state.", 0, QApplication::UnicodeUTF8));
 #endif // QT_NO_STATUSTIP
         button_connect->setText(QApplication::translate("MainWindowDesign", "\347\263\273\347\273\237\345\274\200\345\220\257", 0, QApplication::UnicodeUTF8));
-        button_roscore->setText(QApplication::translate("MainWindowDesign", "roscore", 0, QApplication::UnicodeUTF8));
-        button_openCam->setText(QApplication::translate("MainWindowDesign", "\346\211\223\345\274\200\347\233\270\346\234\272", 0, QApplication::UnicodeUTF8));
         groupBox_2->setTitle(QApplication::translate("MainWindowDesign", "\345\234\260\345\233\276\346\236\204\345\273\272\344\270\216\345\257\274\350\210\252", 0, QApplication::UnicodeUTF8));
         button_onestepSLAM->setText(QApplication::translate("MainWindowDesign", "\346\277\200\345\205\211SLAM", 0, QApplication::UnicodeUTF8));
         button_saveMap->setText(QApplication::translate("MainWindowDesign", "\344\277\235\345\255\230\345\234\260\345\233\276", 0, QApplication::UnicodeUTF8));
         button_rviz->setText(QApplication::translate("MainWindowDesign", "rviz\345\267\245\345\205\267", 0, QApplication::UnicodeUTF8));
         button_loadMap->setText(QApplication::translate("MainWindowDesign", "\345\212\240\350\275\275\345\234\260\345\233\276", 0, QApplication::UnicodeUTF8));
-        groupBox_4->setTitle(QApplication::translate("MainWindowDesign", "\345\257\274\350\210\252 \344\272\272\346\234\272\344\272\244\344\272\222", 0, QApplication::UnicodeUTF8));
+        groupBox_4->setTitle(QApplication::translate("MainWindowDesign", "\345\257\274\350\210\252\344\270\216\350\257\255\351\237\263\344\272\272\346\234\272\344\272\244\344\272\222", 0, QApplication::UnicodeUTF8));
         button_gps->setText(QApplication::translate("MainWindowDesign", "gps", 0, QApplication::UnicodeUTF8));
         button_nav->setText(QApplication::translate("MainWindowDesign", "\345\257\274\350\210\252", 0, QApplication::UnicodeUTF8));
         button_speech->setText(QApplication::translate("MainWindowDesign", "\350\257\255\351\237\263\344\272\272\346\234\272\344\272\244\344\272\222", 0, QApplication::UnicodeUTF8));
-        pushButton->setText(QApplication::translate("MainWindowDesign", "PushButton", 0, QApplication::UnicodeUTF8));
         groupBox_5->setTitle(QApplication::translate("MainWindowDesign", "\345\234\272\346\231\257\345\274\202\345\270\270\346\243\200\346\265\213\347\273\223\346\236\234", 0, QApplication::UnicodeUTF8));
-        label_4->setText(QApplication::translate("MainWindowDesign", "\344\272\272\347\276\244\344\272\272\346\225\260:", 0, QApplication::UnicodeUTF8));
+        label_4->setText(QApplication::translate("MainWindowDesign", "\345\234\272\346\231\257\344\272\272\346\225\260\347\273\237\350\256\241:", 0, QApplication::UnicodeUTF8));
         quit_button->setText(QApplication::translate("MainWindowDesign", "\351\200\200\345\207\272", 0, QApplication::UnicodeUTF8));
     } // retranslateUi
 

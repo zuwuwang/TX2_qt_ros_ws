@@ -640,7 +640,6 @@ guitest/CMakeFiles/guitest.dir/include/guitest/moc_main_window.cxx.o: /usr/inclu
 guitest/CMakeFiles/guitest.dir/include/guitest/moc_main_window.cxx.o: /usr/include/qt4/QtGui/QCheckBox
 guitest/CMakeFiles/guitest.dir/include/guitest/moc_main_window.cxx.o: /usr/include/qt4/QtGui/QDockWidget
 guitest/CMakeFiles/guitest.dir/include/guitest/moc_main_window.cxx.o: /usr/include/qt4/QtGui/QFrame
-guitest/CMakeFiles/guitest.dir/include/guitest/moc_main_window.cxx.o: /usr/include/qt4/QtGui/QGraphicsView
 guitest/CMakeFiles/guitest.dir/include/guitest/moc_main_window.cxx.o: /usr/include/qt4/QtGui/QGridLayout
 guitest/CMakeFiles/guitest.dir/include/guitest/moc_main_window.cxx.o: /usr/include/qt4/QtGui/QGroupBox
 guitest/CMakeFiles/guitest.dir/include/guitest/moc_main_window.cxx.o: /usr/include/qt4/QtGui/QHBoxLayout
@@ -681,8 +680,6 @@ guitest/CMakeFiles/guitest.dir/include/guitest/moc_main_window.cxx.o: /usr/inclu
 guitest/CMakeFiles/guitest.dir/include/guitest/moc_main_window.cxx.o: /usr/include/qt4/QtGui/qfontinfo.h
 guitest/CMakeFiles/guitest.dir/include/guitest/moc_main_window.cxx.o: /usr/include/qt4/QtGui/qfontmetrics.h
 guitest/CMakeFiles/guitest.dir/include/guitest/moc_main_window.cxx.o: /usr/include/qt4/QtGui/qframe.h
-guitest/CMakeFiles/guitest.dir/include/guitest/moc_main_window.cxx.o: /usr/include/qt4/QtGui/qgraphicsscene.h
-guitest/CMakeFiles/guitest.dir/include/guitest/moc_main_window.cxx.o: /usr/include/qt4/QtGui/qgraphicsview.h
 guitest/CMakeFiles/guitest.dir/include/guitest/moc_main_window.cxx.o: /usr/include/qt4/QtGui/qgridlayout.h
 guitest/CMakeFiles/guitest.dir/include/guitest/moc_main_window.cxx.o: /usr/include/qt4/QtGui/qgroupbox.h
 guitest/CMakeFiles/guitest.dir/include/guitest/moc_main_window.cxx.o: /usr/include/qt4/QtGui/qheaderview.h
@@ -714,7 +711,6 @@ guitest/CMakeFiles/guitest.dir/include/guitest/moc_main_window.cxx.o: /usr/inclu
 guitest/CMakeFiles/guitest.dir/include/guitest/moc_main_window.cxx.o: /usr/include/qt4/QtGui/qregion.h
 guitest/CMakeFiles/guitest.dir/include/guitest/moc_main_window.cxx.o: /usr/include/qt4/QtGui/qrgb.h
 guitest/CMakeFiles/guitest.dir/include/guitest/moc_main_window.cxx.o: /usr/include/qt4/QtGui/qrubberband.h
-guitest/CMakeFiles/guitest.dir/include/guitest/moc_main_window.cxx.o: /usr/include/qt4/QtGui/qscrollarea.h
 guitest/CMakeFiles/guitest.dir/include/guitest/moc_main_window.cxx.o: /usr/include/qt4/QtGui/qsizepolicy.h
 guitest/CMakeFiles/guitest.dir/include/guitest/moc_main_window.cxx.o: /usr/include/qt4/QtGui/qslider.h
 guitest/CMakeFiles/guitest.dir/include/guitest/moc_main_window.cxx.o: /usr/include/qt4/QtGui/qstatusbar.h
@@ -1999,7 +1995,6 @@ guitest/CMakeFiles/guitest.dir/src/main.cpp.o: /usr/include/qt4/QtGui/QDockWidge
 guitest/CMakeFiles/guitest.dir/src/main.cpp.o: /usr/include/qt4/QtGui/QFileDialog
 guitest/CMakeFiles/guitest.dir/src/main.cpp.o: /usr/include/qt4/QtGui/QFont
 guitest/CMakeFiles/guitest.dir/src/main.cpp.o: /usr/include/qt4/QtGui/QFrame
-guitest/CMakeFiles/guitest.dir/src/main.cpp.o: /usr/include/qt4/QtGui/QGraphicsView
 guitest/CMakeFiles/guitest.dir/src/main.cpp.o: /usr/include/qt4/QtGui/QGridLayout
 guitest/CMakeFiles/guitest.dir/src/main.cpp.o: /usr/include/qt4/QtGui/QGroupBox
 guitest/CMakeFiles/guitest.dir/src/main.cpp.o: /usr/include/qt4/QtGui/QHBoxLayout
@@ -2664,7 +2659,6 @@ guitest/CMakeFiles/guitest.dir/src/main_window.cpp.o: /usr/include/qt4/QtGui/QDo
 guitest/CMakeFiles/guitest.dir/src/main_window.cpp.o: /usr/include/qt4/QtGui/QFileDialog
 guitest/CMakeFiles/guitest.dir/src/main_window.cpp.o: /usr/include/qt4/QtGui/QFont
 guitest/CMakeFiles/guitest.dir/src/main_window.cpp.o: /usr/include/qt4/QtGui/QFrame
-guitest/CMakeFiles/guitest.dir/src/main_window.cpp.o: /usr/include/qt4/QtGui/QGraphicsView
 guitest/CMakeFiles/guitest.dir/src/main_window.cpp.o: /usr/include/qt4/QtGui/QGridLayout
 guitest/CMakeFiles/guitest.dir/src/main_window.cpp.o: /usr/include/qt4/QtGui/QGroupBox
 guitest/CMakeFiles/guitest.dir/src/main_window.cpp.o: /usr/include/qt4/QtGui/QHBoxLayout
