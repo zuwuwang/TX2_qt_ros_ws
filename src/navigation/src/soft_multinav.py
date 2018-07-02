@@ -15,13 +15,14 @@ class MultiNav():
     speechFlag = 'justrun'
     speechFinishWaitingTime = 9
     def for_navigation_sub_recalled(self,recalled):
-	print 'recalled.data == ',recalled.data
         if recalled.data == 'speechbegin':
-	    self.move_base.cancel_goal() 
+	    if self.move_base != None:
+		self.move_base.cancel_goal()
+		print '因为会话，所以目标已经清楚，确认机器人是否已经停止'
             self.speechFlag = 'intalk'
         if recalled.data == 'speechend':
-	    self.speechFinishWaitingTime = 9
             self.speechFlag = 'notalk'
+	    self.speechFinishWaitingTime = 9
     def __init__(self):  
         self.for_navigation_sub = rospy.Subscriber('for_navigation_pub', String, self.for_navigation_sub_recalled, queue_size=1)
         rospy.init_node('MultiNav', anonymous=True)  
@@ -136,18 +137,14 @@ class MultiNav():
 
             #tent42 开启另一个while not rospy.is_shutdown():
 	    #目的是做到和语音的交互
-	    print '什么时候来到这里？move——base.wait_for_result()是否已经结束？'
 	    #speech while:begin
   	    while not rospy.is_shutdown():
 	        if self.speechFlag == 'justrun':
-		    print 'self.speechFlag == justrun'
 		    break
 	        if self.speechFlag == 'intalk':
-		    print 'self.speechFlag == intalk'
 		    rospy.sleep(1)
 	        if self.speechFlag == 'notalk':
-		    print 'self.speechFlag == notalk'
-		    rospy.sleep(self.speechFinishWaitingTime)
+		    rospy.sleep(speechFinishWaitingTime)
 	    	    self.speechFinishWaitingTime = 0
 		    break
 	    #speech while:end
