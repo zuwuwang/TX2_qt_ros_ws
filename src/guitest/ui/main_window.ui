@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1154</width>
-    <height>746</height>
+    <width>1165</width>
+    <height>734</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -37,7 +37,7 @@
        </sizepolicy>
       </property>
       <property name="title">
-       <string>                                                                           第十三届中国研究生电子设计竞赛上海赛区</string>
+       <string>                                                         第十三届中国研究生电子设计竞赛上海赛区</string>
       </property>
       <layout class="QGridLayout" name="gridLayout_3">
        <item row="1" column="0">
@@ -144,7 +144,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1154</width>
+     <width>1165</width>
      <height>19</height>
     </rect>
    </property>
@@ -164,15 +164,21 @@
   <widget class="QStatusBar" name="statusbar"/>
   <widget class="QDockWidget" name="dock_status">
    <property name="sizePolicy">
-    <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+    <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
      <horstretch>0</horstretch>
      <verstretch>0</verstretch>
     </sizepolicy>
    </property>
    <property name="minimumSize">
     <size>
-     <width>331</width>
+     <width>350</width>
      <height>560</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>350</width>
+     <height>524287</height>
     </size>
    </property>
    <property name="allowedAreas">
@@ -232,6 +238,12 @@
            </item>
            <item row="1" column="0" colspan="3">
             <widget class="QLineEdit" name="line_edit_master">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
              <property name="text">
               <string>http://192.168.1.2:11311/</string>
              </property>
@@ -252,6 +264,12 @@
            </item>
            <item row="3" column="0" colspan="3">
             <widget class="QLineEdit" name="line_edit_host">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
              <property name="text">
               <string>192.168.1.67</string>
              </property>
@@ -296,7 +314,7 @@
               <bool>true</bool>
              </property>
              <property name="sizePolicy">
-              <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                <horstretch>0</horstretch>
                <verstretch>0</verstretch>
               </sizepolicy>
@@ -314,6 +332,12 @@
            </item>
            <item row="8" column="0">
             <widget class="QPushButton" name="button_roscore">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
              <property name="text">
               <string>roscore</string>
              </property>
@@ -321,6 +345,12 @@
            </item>
            <item row="8" column="1">
             <widget class="QPushButton" name="button_openCam">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
              <property name="text">
               <string>打开相机</string>
              </property>
@@ -339,7 +369,7 @@
             <rect>
              <x>40</x>
              <y>20</y>
-             <width>211</width>
+             <width>241</width>
              <height>31</height>
             </rect>
            </property>
@@ -365,7 +395,7 @@
             <rect>
              <x>40</x>
              <y>50</y>
-             <width>211</width>
+             <width>241</width>
              <height>31</height>
             </rect>
            </property>
@@ -391,60 +421,109 @@
         <item>
          <widget class="QGroupBox" name="groupBox_4">
           <property name="title">
-           <string>导航任务</string>
+           <string>导航 人机交互</string>
           </property>
           <widget class="QWidget" name="horizontalLayoutWidget_4">
            <property name="geometry">
             <rect>
              <x>40</x>
              <y>20</y>
-             <width>228</width>
-             <height>61</height>
+             <width>241</width>
+             <height>31</height>
             </rect>
            </property>
            <layout class="QHBoxLayout" name="horizontalLayout_4">
             <item>
-             <widget class="QLineEdit" name="line_edit_setA"/>
-            </item>
-            <item>
-             <widget class="QPushButton" name="button_setA">
-              <property name="maximumSize">
-               <size>
-                <width>35</width>
-                <height>16777215</height>
-               </size>
+             <widget class="QPushButton" name="button_gps">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
               </property>
-              <property name="text">
-               <string>setA</string>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QLineEdit" name="line_edit_setB"/>
-            </item>
-            <item>
-             <widget class="QPushButton" name="button_setB">
-              <property name="maximumSize">
-               <size>
-                <width>35</width>
-                <height>16777215</height>
-               </size>
-              </property>
-              <property name="text">
-               <string>setB</string>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QPushButton" name="pushButton">
-              <property name="maximumSize">
+              <property name="minimumSize">
                <size>
                 <width>40</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>gps</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="button_nav">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>40</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>80</width>
                 <height>16777215</height>
                </size>
               </property>
               <property name="text">
-               <string>nav</string>
+               <string>导航</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="button_speech">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>40</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>语音人机交互</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="horizontalLayoutWidget_3">
+           <property name="geometry">
+            <rect>
+             <x>40</x>
+             <y>50</y>
+             <width>241</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <item>
+             <widget class="QPushButton" name="button_connect_turtlebot">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>40</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>连接小车</string>
               </property>
              </widget>
             </item>
@@ -455,14 +534,14 @@
         <item>
          <widget class="QGroupBox" name="groupBox_5">
           <property name="title">
-           <string>获取检测结果</string>
+           <string>场景异常检测结果</string>
           </property>
           <widget class="QWidget" name="horizontalLayoutWidget_5">
            <property name="geometry">
             <rect>
              <x>39</x>
              <y>20</y>
-             <width>231</width>
+             <width>241</width>
              <height>51</height>
             </rect>
            </property>

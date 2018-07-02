@@ -58,12 +58,18 @@ public Q_SLOTS:
 
   // TODO HERE,ADD YOUR BUTTON
   void on_button_roscore_clicked(bool checked );
+  void on_button_openCam_clicked(bool checked );
+
   void on_button_onestepSLAM_clicked(bool checked );
   void on_button_saveMap_clicked(bool checked);
   void on_button_loadMap_clicked(bool ckecked);
   void on_button_rviz_clicked(bool checked);
 
-  void on_button_openCam_clicked(bool checked );
+  void on_button_connect_turtlebot_clicked(bool checked);
+  void on_button_gps_clicked(bool checked);
+  void on_button_nav_clicked(bool checked);
+  void on_button_speech_clicked(bool checked);
+
 
     /******************************************
     ** Manual connections

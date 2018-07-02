@@ -5,7 +5,7 @@
       <Option title="Project" />
       <Option makefile_is_custom="1" />
       <Option compiler="gcc" />
-      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\opt\;CMake Files\..\..\..\..\opt\ros\;CMake Files\..\..\..\..\opt\ros\kinetic\;CMake Files\..\..\..\..\opt\ros\kinetic\share\;CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\;CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\platform\;CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\test\;CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\tools\;CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\;CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\em\;CMake Files\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1\;CMake Files\..\..\..\..\opt\ros\kinetic\share\qt_build\;CMake Files\..\..\..\..\opt\ros\kinetic\share\qt_build\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\;CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\cpp_common\;CMake Files\..\..\..\..\opt\ros\kinetic\share\cpp_common\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\message_runtime\;CMake Files\..\..\..\..\opt\ros\kinetic\share\message_runtime\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_serialization\;CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_serialization\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\;CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\rostime\;CMake Files\..\..\..\..\opt\ros\kinetic\share\rostime\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\;CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\;CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\;CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\;CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\cv_bridge\;CMake Files\..\..\..\..\opt\ros\kinetic\share\cv_bridge\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\sensor_msgs\;CMake Files\..\..\..\..\opt\ros\kinetic\share\sensor_msgs\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\geometry_msgs\;CMake Files\..\..\..\..\opt\ros\kinetic\share\geometry_msgs\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\image_transport\;CMake Files\..\..\..\..\opt\ros\kinetic\share\image_transport\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\message_filters\;CMake Files\..\..\..\..\opt\ros\kinetic\share\message_filters\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\pluginlib\;CMake Files\..\..\..\..\opt\ros\kinetic\share\pluginlib\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\class_loader\;CMake Files\..\..\..\..\opt\ros\kinetic\share\class_loader\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\roslib\;CMake Files\..\..\..\..\opt\ros\kinetic\share\roslib\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\rospack\;CMake Files\..\..\..\..\opt\ros\kinetic\share\rospack\cmake\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\src\;CMake Files\..\..\..\..\usr\src\gtest\;CMake Files\..\..\..\..\usr\src\gtest\cmake\;CMake Files\..\build\;CMake Files\..\build\catkin\;CMake Files\..\build\catkin\catkin_generated\;CMake Files\..\build\catkin\catkin_generated\version\;CMake Files\..\build\catkin_generated\;CMake Files\..\build\catkin_generated\installspace\;CMake Files\..\build\guitest\;CMake Files\..\build\guitest\catkin_generated\;CMake Files\guitest\;CMake Files\guitest\resources\;" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\opt\;CMake Files\..\..\..\..\opt\ros\;CMake Files\..\..\..\..\opt\ros\kinetic\;CMake Files\..\..\..\..\opt\ros\kinetic\share\;CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\;CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\platform\;CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\test\;CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\tools\;CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\;CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\em\;CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\;CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\cpp_common\;CMake Files\..\..\..\..\opt\ros\kinetic\share\cpp_common\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\message_runtime\;CMake Files\..\..\..\..\opt\ros\kinetic\share\message_runtime\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_serialization\;CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_serialization\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\;CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\rostime\;CMake Files\..\..\..\..\opt\ros\kinetic\share\rostime\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\;CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\;CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\;CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\;CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1\;CMake Files\..\..\..\..\opt\ros\kinetic\share\qt_build\;CMake Files\..\..\..\..\opt\ros\kinetic\share\qt_build\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\cv_bridge\;CMake Files\..\..\..\..\opt\ros\kinetic\share\cv_bridge\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\sensor_msgs\;CMake Files\..\..\..\..\opt\ros\kinetic\share\sensor_msgs\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\geometry_msgs\;CMake Files\..\..\..\..\opt\ros\kinetic\share\geometry_msgs\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\image_transport\;CMake Files\..\..\..\..\opt\ros\kinetic\share\image_transport\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\message_filters\;CMake Files\..\..\..\..\opt\ros\kinetic\share\message_filters\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\pluginlib\;CMake Files\..\..\..\..\opt\ros\kinetic\share\pluginlib\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\class_loader\;CMake Files\..\..\..\..\opt\ros\kinetic\share\class_loader\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\roslib\;CMake Files\..\..\..\..\opt\ros\kinetic\share\roslib\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\rospack\;CMake Files\..\..\..\..\opt\ros\kinetic\share\rospack\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\rospy\;CMake Files\..\..\..\..\opt\ros\kinetic\share\rospy\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\message_generation\;CMake Files\..\..\..\..\opt\ros\kinetic\share\message_generation\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\gencpp\;CMake Files\..\..\..\..\opt\ros\kinetic\share\gencpp\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\genmsg\;CMake Files\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\geneus\;CMake Files\..\..\..\..\opt\ros\kinetic\share\geneus\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\genlisp\;CMake Files\..\..\..\..\opt\ros\kinetic\share\genlisp\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\gennodejs\;CMake Files\..\..\..\..\opt\ros\kinetic\share\gennodejs\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\genpy\;CMake Files\..\..\..\..\opt\ros\kinetic\share\genpy\cmake\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\src\;CMake Files\..\..\..\..\usr\src\gtest\;CMake Files\..\..\..\..\usr\src\gtest\cmake\;CMake Files\..\build\;CMake Files\..\build\catkin\;CMake Files\..\build\catkin\catkin_generated\;CMake Files\..\build\catkin\catkin_generated\version\;CMake Files\..\build\catkin_generated\;CMake Files\..\build\catkin_generated\installspace\;CMake Files\..\build\gps\;CMake Files\..\build\gps\catkin_generated\;CMake Files\..\build\guitest\;CMake Files\..\build\guitest\catkin_generated\;CMake Files\..\build\simple_voice\;CMake Files\..\build\simple_voice\catkin_generated\;CMake Files\..\build\simple_voice\cmake\;CMake Files\..\devel\;CMake Files\..\devel\share\;CMake Files\..\devel\share\simple_voice\;CMake Files\..\devel\share\simple_voice\cmake\;CMake Files\gps\;CMake Files\guitest\;CMake Files\guitest\resources\;CMake Files\simple_voice\;" />
       <Build>
       <Target title="all">
          <Option working_dir="/home/ubuntu/qt_ros_ws/build" />
@@ -241,144 +241,212 @@
             <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gtest/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
-      <Target title="geometry_msgs_generate_messages_py">
-         <Option working_dir="/home/ubuntu/qt_ros_ws/build/guitest" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_py" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="geometry_msgs_generate_messages_nodejs">
-         <Option working_dir="/home/ubuntu/qt_ros_ws/build/guitest" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_nodejs" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
       <Target title="std_msgs_generate_messages_py">
-         <Option working_dir="/home/ubuntu/qt_ros_ws/build/guitest" />
+         <Option working_dir="/home/ubuntu/qt_ros_ws/build/gps" />
          <Option type="4" />
          <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_py" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="sensor_msgs_generate_messages_py">
-         <Option working_dir="/home/ubuntu/qt_ros_ws/build/guitest" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 sensor_msgs_generate_messages_py" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_py" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       <Target title="roscpp_generate_messages_py">
-         <Option working_dir="/home/ubuntu/qt_ros_ws/build/guitest" />
+         <Option working_dir="/home/ubuntu/qt_ros_ws/build/gps" />
          <Option type="4" />
          <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_py" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_py" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       <Target title="rosgraph_msgs_generate_messages_eus">
-         <Option working_dir="/home/ubuntu/qt_ros_ws/build/guitest" />
+         <Option working_dir="/home/ubuntu/qt_ros_ws/build/gps" />
          <Option type="4" />
          <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_eus" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_eus" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       <Target title="rosgraph_msgs_generate_messages_nodejs">
-         <Option working_dir="/home/ubuntu/qt_ros_ws/build/guitest" />
+         <Option working_dir="/home/ubuntu/qt_ros_ws/build/gps" />
          <Option type="4" />
          <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_nodejs" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="geometry_msgs_generate_messages_eus">
-         <Option working_dir="/home/ubuntu/qt_ros_ws/build/guitest" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_eus" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_nodejs" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       <Target title="roscpp_generate_messages_cpp">
-         <Option working_dir="/home/ubuntu/qt_ros_ws/build/guitest" />
+         <Option working_dir="/home/ubuntu/qt_ros_ws/build/gps" />
          <Option type="4" />
          <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_cpp" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_cpp" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       <Target title="rosgraph_msgs_generate_messages_cpp">
-         <Option working_dir="/home/ubuntu/qt_ros_ws/build/guitest" />
+         <Option working_dir="/home/ubuntu/qt_ros_ws/build/gps" />
          <Option type="4" />
          <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_cpp" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_cpp" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       <Target title="std_msgs_generate_messages_cpp">
-         <Option working_dir="/home/ubuntu/qt_ros_ws/build/guitest" />
+         <Option working_dir="/home/ubuntu/qt_ros_ws/build/gps" />
          <Option type="4" />
          <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_cpp" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="sensor_msgs_generate_messages_nodejs">
-         <Option working_dir="/home/ubuntu/qt_ros_ws/build/guitest" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 sensor_msgs_generate_messages_nodejs" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="geometry_msgs_generate_messages_cpp">
-         <Option working_dir="/home/ubuntu/qt_ros_ws/build/guitest" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_cpp" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_cpp" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       <Target title="roscpp_generate_messages_eus">
-         <Option working_dir="/home/ubuntu/qt_ros_ws/build/guitest" />
+         <Option working_dir="/home/ubuntu/qt_ros_ws/build/gps" />
          <Option type="4" />
          <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_eus" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_eus" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rosgraph_msgs_generate_messages_py">
+         <Option working_dir="/home/ubuntu/qt_ros_ws/build/gps" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_py" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rosgraph_msgs_generate_messages_lisp">
+         <Option working_dir="/home/ubuntu/qt_ros_ws/build/gps" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_lisp" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="roscpp_generate_messages_nodejs">
+         <Option working_dir="/home/ubuntu/qt_ros_ws/build/gps" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_nodejs" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="std_msgs_generate_messages_nodejs">
+         <Option working_dir="/home/ubuntu/qt_ros_ws/build/gps" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_nodejs" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="roscpp_generate_messages_lisp">
+         <Option working_dir="/home/ubuntu/qt_ros_ws/build/gps" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_lisp" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="std_msgs_generate_messages_eus">
+         <Option working_dir="/home/ubuntu/qt_ros_ws/build/gps" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_eus" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="std_msgs_generate_messages_lisp">
+         <Option working_dir="/home/ubuntu/qt_ros_ws/build/gps" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_lisp" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gps_response">
+         <Option output="/home/ubuntu/qt_ros_ws/devel/lib/gps/gps_response" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ubuntu/qt_ros_ws/devel/lib/gps" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DROS_BUILD_SHARED_LIBS=1" />
+            <Add option="-DROS_PACKAGE_NAME=&quot;gps&quot;" />
+            <Add option="-DROSCONSOLE_BACKEND_LOG4CXX" />
+            <Add directory="/home/ubuntu/qt_ros_ws/src/gps/include/gps" />
+            <Add directory="/opt/ros/kinetic/include" />
+            <Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/aarch64-linux-gnu" />
+            <Add directory="/usr/include/aarch64-linux-gnu/c++/5" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/lib/gcc/aarch64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/aarch64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 gps_response" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gps_response/fast">
+         <Option output="/home/ubuntu/qt_ros_ws/devel/lib/gps/gps_response" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ubuntu/qt_ros_ws/devel/lib/gps" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DROS_BUILD_SHARED_LIBS=1" />
+            <Add option="-DROS_PACKAGE_NAME=&quot;gps&quot;" />
+            <Add option="-DROSCONSOLE_BACKEND_LOG4CXX" />
+            <Add directory="/home/ubuntu/qt_ros_ws/src/gps/include/gps" />
+            <Add directory="/opt/ros/kinetic/include" />
+            <Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/aarch64-linux-gnu" />
+            <Add directory="/usr/include/aarch64-linux-gnu/c++/5" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/lib/gcc/aarch64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/aarch64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 gps_response/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/gps/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       <Target title="guitest">
@@ -463,91 +531,11 @@
             <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
-      <Target title="rosgraph_msgs_generate_messages_py">
+      <Target title="sensor_msgs_generate_messages_nodejs">
          <Option working_dir="/home/ubuntu/qt_ros_ws/build/guitest" />
          <Option type="4" />
          <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_py" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="rosgraph_msgs_generate_messages_lisp">
-         <Option working_dir="/home/ubuntu/qt_ros_ws/build/guitest" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_lisp" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="roscpp_generate_messages_nodejs">
-         <Option working_dir="/home/ubuntu/qt_ros_ws/build/guitest" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_nodejs" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="std_msgs_generate_messages_nodejs">
-         <Option working_dir="/home/ubuntu/qt_ros_ws/build/guitest" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_nodejs" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="roscpp_generate_messages_lisp">
-         <Option working_dir="/home/ubuntu/qt_ros_ws/build/guitest" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_lisp" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="std_msgs_generate_messages_eus">
-         <Option working_dir="/home/ubuntu/qt_ros_ws/build/guitest" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_eus" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="geometry_msgs_generate_messages_lisp">
-         <Option working_dir="/home/ubuntu/qt_ros_ws/build/guitest" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_lisp" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="std_msgs_generate_messages_lisp">
-         <Option working_dir="/home/ubuntu/qt_ros_ws/build/guitest" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_lisp" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="sensor_msgs_generate_messages_cpp">
-         <Option working_dir="/home/ubuntu/qt_ros_ws/build/guitest" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 sensor_msgs_generate_messages_cpp" />
+            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 sensor_msgs_generate_messages_nodejs" />
             <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
             <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
             <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
@@ -563,6 +551,16 @@
             <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
+      <Target title="sensor_msgs_generate_messages_py">
+         <Option working_dir="/home/ubuntu/qt_ros_ws/build/guitest" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 sensor_msgs_generate_messages_py" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
       <Target title="sensor_msgs_generate_messages_lisp">
          <Option working_dir="/home/ubuntu/qt_ros_ws/build/guitest" />
          <Option type="4" />
@@ -573,7 +571,190 @@
             <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
+      <Target title="sensor_msgs_generate_messages_cpp">
+         <Option working_dir="/home/ubuntu/qt_ros_ws/build/guitest" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 sensor_msgs_generate_messages_cpp" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="geometry_msgs_generate_messages_py">
+         <Option working_dir="/home/ubuntu/qt_ros_ws/build/guitest" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_py" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="geometry_msgs_generate_messages_cpp">
+         <Option working_dir="/home/ubuntu/qt_ros_ws/build/guitest" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_cpp" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="geometry_msgs_generate_messages_eus">
+         <Option working_dir="/home/ubuntu/qt_ros_ws/build/guitest" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_eus" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="geometry_msgs_generate_messages_lisp">
+         <Option working_dir="/home/ubuntu/qt_ros_ws/build/guitest" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_lisp" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="geometry_msgs_generate_messages_nodejs">
+         <Option working_dir="/home/ubuntu/qt_ros_ws/build/guitest" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_nodejs" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/guitest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="simple_voice_genpy">
+         <Option working_dir="/home/ubuntu/qt_ros_ws/build/simple_voice" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 simple_voice_genpy" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="simple_voice_generate_messages_py">
+         <Option working_dir="/home/ubuntu/qt_ros_ws/build/simple_voice" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 simple_voice_generate_messages_py" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="simple_voice_generate_messages_cpp">
+         <Option working_dir="/home/ubuntu/qt_ros_ws/build/simple_voice" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 simple_voice_generate_messages_cpp" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="simple_voice_generate_messages">
+         <Option working_dir="/home/ubuntu/qt_ros_ws/build/simple_voice" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 simple_voice_generate_messages" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="simple_voice_generate_messages_eus">
+         <Option working_dir="/home/ubuntu/qt_ros_ws/build/simple_voice" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 simple_voice_generate_messages_eus" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="simple_voice_geneus">
+         <Option working_dir="/home/ubuntu/qt_ros_ws/build/simple_voice" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 simple_voice_geneus" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="simple_voice_gennodejs">
+         <Option working_dir="/home/ubuntu/qt_ros_ws/build/simple_voice" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 simple_voice_gennodejs" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="_simple_voice_generate_messages_check_deps_TTS_message">
+         <Option working_dir="/home/ubuntu/qt_ros_ws/build/simple_voice" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 _simple_voice_generate_messages_check_deps_TTS_message" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="simple_voice_generate_messages_lisp">
+         <Option working_dir="/home/ubuntu/qt_ros_ws/build/simple_voice" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 simple_voice_generate_messages_lisp" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="simple_voice_genlisp">
+         <Option working_dir="/home/ubuntu/qt_ros_ws/build/simple_voice" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 simple_voice_genlisp" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="simple_voice_gencpp">
+         <Option working_dir="/home/ubuntu/qt_ros_ws/build/simple_voice" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 simple_voice_gencpp" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="simple_voice_generate_messages_nodejs">
+         <Option working_dir="/home/ubuntu/qt_ros_ws/build/simple_voice" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 simple_voice_generate_messages_nodejs" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ubuntu/qt_ros_ws/build/simple_voice/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
       </Build>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/gps/src/gps.cpp">
+         <Option target="gps_response"/>
+      </Unit>
       <Unit filename="/home/ubuntu/qt_ros_ws/src/guitest/resources/images.qrc">
          <Option target="guitest"/>
       </Unit>
@@ -706,6 +887,42 @@
       <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/catkinConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
       </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/catkinConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/catkinConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/catkinConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/catkinConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/catkinConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/catkinConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/catkinConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/catkinConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/catkinConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/catkinConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/catkinConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/catkinConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
       <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/platform/lsb.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\platform\" />
       </Unit>
@@ -817,6 +1034,78 @@
       <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/pkgConfig-version.cmake.in">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
       </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/pkg.context.pc.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/pkgConfig.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/pkgConfig-version.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/pkg.context.pc.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/pkgConfig.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/pkgConfig-version.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/pkg.context.pc.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/pkgConfig.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/pkgConfig-version.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/pkg.context.pc.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/pkgConfig.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/pkgConfig-version.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/pkg.context.pc.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/pkgConfig.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/pkgConfig-version.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/pkg.context.pc.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/pkgConfig.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/pkgConfig-version.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/pkg.context.pc.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/pkgConfig.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/pkgConfig-version.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/pkg.context.pc.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/pkgConfig.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/pkgConfig-version.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
       <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/em/order_packages.cmake.em">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\em\" />
       </Unit>
@@ -832,6 +1121,522 @@
       <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/em/pkg.pc.em">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\em\" />
       </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/em/pkg.pc.em">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\em\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/em/pkg.pc.em">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\em\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/em/pkg.pc.em">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\em\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/em/pkg.pc.em">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\em\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/em/pkg.pc.em">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\em\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/em/pkg.pc.em">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\em\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/em/pkg.pc.em">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\em\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/catkin/cmake/em/pkg.pc.em">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\em\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscpp-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscpp-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscpp-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscpp-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscpp-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscpp-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/cpp_common/cmake/cpp_commonConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\cpp_common\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/cpp_common/cmake/cpp_commonConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\cpp_common\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/cpp_common/cmake/cpp_commonConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\cpp_common\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/cpp_common/cmake/cpp_commonConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\cpp_common\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/cpp_common/cmake/cpp_commonConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\cpp_common\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/cpp_common/cmake/cpp_commonConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\cpp_common\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/cpp_common/cmake/cpp_commonConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\cpp_common\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/cpp_common/cmake/cpp_commonConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\cpp_common\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/cpp_common/cmake/cpp_commonConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\cpp_common\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/cpp_common/cmake/cpp_commonConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\cpp_common\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/cpp_common/cmake/cpp_commonConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\cpp_common\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/cpp_common/cmake/cpp_commonConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\cpp_common\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/message_runtime/cmake/message_runtimeConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\message_runtime\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/message_runtime/cmake/message_runtimeConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\message_runtime\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/message_runtime/cmake/message_runtimeConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\message_runtime\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/message_runtime/cmake/message_runtimeConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\message_runtime\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/message_runtime/cmake/message_runtimeConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\message_runtime\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/message_runtime/cmake/message_runtimeConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\message_runtime\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/message_runtime/cmake/message_runtimeConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\message_runtime\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/message_runtime/cmake/message_runtimeConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\message_runtime\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/message_runtime/cmake/message_runtimeConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\message_runtime\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/message_runtime/cmake/message_runtimeConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\message_runtime\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/message_runtime/cmake/message_runtimeConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\message_runtime\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/message_runtime/cmake/message_runtimeConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\message_runtime\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp_serialization/cmake/roscpp_serializationConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_serialization\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp_serialization/cmake/roscpp_serializationConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_serialization\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp_serialization/cmake/roscpp_serializationConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_serialization\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp_serialization/cmake/roscpp_serializationConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_serialization\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp_serialization/cmake/roscpp_serializationConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_serialization\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp_serialization/cmake/roscpp_serializationConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_serialization\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp_serialization/cmake/roscpp_serializationConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_serialization\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp_serialization/cmake/roscpp_serializationConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_serialization\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp_serialization/cmake/roscpp_serializationConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_serialization\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp_serialization/cmake/roscpp_serializationConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_serialization\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp_serialization/cmake/roscpp_serializationConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_serialization\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp_serialization/cmake/roscpp_serializationConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_serialization\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rostime/cmake/rostimeConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rostime\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rostime/cmake/rostimeConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rostime\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rostime/cmake/rostimeConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rostime\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rostime/cmake/rostimeConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rostime\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rostime/cmake/rostimeConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rostime\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rostime/cmake/rostimeConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rostime\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rostime/cmake/rostimeConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rostime\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rostime/cmake/rostimeConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rostime\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rostime/cmake/rostimeConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rostime\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rostime/cmake/rostimeConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rostime\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rostime/cmake/rostimeConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rostime\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rostime/cmake/rostimeConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rostime\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosconsole/cmake/rosconsoleConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosconsole/cmake/rosconsoleConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosconsole/cmake/rosconsole-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosconsole/cmake/rosconsoleConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosconsole/cmake/rosconsoleConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosconsole/cmake/rosconsole-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosconsole/cmake/rosconsoleConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosconsole/cmake/rosconsoleConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosconsole/cmake/rosconsole-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosconsole/cmake/rosconsoleConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosconsole/cmake/rosconsoleConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosconsole/cmake/rosconsole-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosconsole/cmake/rosconsoleConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosconsole/cmake/rosconsoleConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosconsole/cmake/rosconsole-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosconsole/cmake/rosconsoleConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosconsole/cmake/rosconsoleConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosconsole/cmake/rosconsole-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosgraph_msgs/cmake/rosgraph_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosgraph_msgs/cmake/rosgraph_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosgraph_msgs/cmake/rosgraph_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosgraph_msgs/cmake/rosgraph_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosgraph_msgs/cmake/rosgraph_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosgraph_msgs/cmake/rosgraph_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosgraph_msgs/cmake/rosgraph_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosgraph_msgs/cmake/rosgraph_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosgraph_msgs/cmake/rosgraph_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosgraph_msgs/cmake/rosgraph_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosgraph_msgs/cmake/rosgraph_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosgraph_msgs/cmake/rosgraph_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosgraph_msgs/cmake/rosgraph_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosgraph_msgs/cmake/rosgraph_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosgraph_msgs/cmake/rosgraph_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosgraph_msgs/cmake/rosgraph_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosgraph_msgs/cmake/rosgraph_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosgraph_msgs/cmake/rosgraph_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgs-msg-paths.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgs-msg-paths.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcpp-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcpp-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcpp-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcpp-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcpp-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcpp-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\" />
+      </Unit>
       <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/OpenCV-3.3.1/OpenCVConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1\" />
       </Unit>
@@ -885,168 +1690,6 @@
       </Unit>
       <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/qt_build/cmake/qt-ros.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\qt_build\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscpp-msg-extras.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscpp-msg-extras.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/cpp_common/cmake/cpp_commonConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\cpp_common\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/cpp_common/cmake/cpp_commonConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\cpp_common\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/cpp_common/cmake/cpp_commonConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\cpp_common\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/cpp_common/cmake/cpp_commonConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\cpp_common\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/message_runtime/cmake/message_runtimeConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\message_runtime\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/message_runtime/cmake/message_runtimeConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\message_runtime\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/message_runtime/cmake/message_runtimeConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\message_runtime\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/message_runtime/cmake/message_runtimeConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\message_runtime\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp_serialization/cmake/roscpp_serializationConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_serialization\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp_serialization/cmake/roscpp_serializationConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_serialization\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp_serialization/cmake/roscpp_serializationConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_serialization\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp_serialization/cmake/roscpp_serializationConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_serialization\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rostime/cmake/rostimeConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rostime\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rostime/cmake/rostimeConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rostime\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rostime/cmake/rostimeConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rostime\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rostime/cmake/rostimeConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rostime\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosconsole/cmake/rosconsoleConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosconsole/cmake/rosconsoleConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosconsole/cmake/rosconsole-extras.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosconsole/cmake/rosconsoleConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosconsole/cmake/rosconsoleConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosconsole/cmake/rosconsole-extras.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosgraph_msgs/cmake/rosgraph_msgsConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosgraph_msgs/cmake/rosgraph_msgsConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosgraph_msgs/cmake/rosgraph_msgs-msg-extras.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosgraph_msgs/cmake/rosgraph_msgsConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosgraph_msgs/cmake/rosgraph_msgsConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rosgraph_msgs/cmake/rosgraph_msgs-msg-extras.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgs-msg-extras.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgs-msg-extras.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcppConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcppConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcpp-extras.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcppConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcppConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\" />
-      </Unit>
-      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcpp-extras.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\" />
       </Unit>
       <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\cv_bridge\cmake\" />
@@ -1185,6 +1828,258 @@
       </Unit>
       <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rospack/cmake/rospackConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rospack\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rospy/cmake/rospyConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rospy\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rospy/cmake/rospyConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rospy\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rospy/cmake/rospyConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rospy\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/rospy/cmake/rospyConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rospy\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/message_generation/cmake/message_generationConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\message_generation\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/message_generation/cmake/message_generationConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\message_generation\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/message_generation/cmake/message_generationConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\message_generation\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/message_generation/cmake/message_generationConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\message_generation\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/gencpp/cmake/gencppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gencpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/gencpp/cmake/gencppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gencpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/gencpp/cmake/gencppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gencpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/gencpp/cmake/gencppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gencpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/gencpp/cmake/gencpp-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gencpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/gencpp/cmake/gencppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gencpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/gencpp/cmake/gencppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gencpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/gencpp/cmake/gencppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gencpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/gencpp/cmake/gencppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gencpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/gencpp/cmake/gencppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gencpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/gencpp/cmake/gencppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gencpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/gencpp/cmake/gencpp-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gencpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/gencpp/cmake/gencppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gencpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/gencpp/cmake/gencppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gencpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genmsg/cmake/genmsgConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genmsg/cmake/genmsgConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genmsg/cmake/genmsg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genmsg/cmake/genmsgConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genmsg/cmake/genmsgConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genmsg/cmake/pkg-msg-paths.cmake.develspace.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genmsg/cmake/pkg-msg-paths.cmake.installspace.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genmsg/cmake/pkg-msg-extras.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genmsg/cmake/pkg-msg-extras.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genmsg/cmake/pkg-genmsg.context.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genmsg/cmake/pkg-genmsg.cmake.em">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genmsg/cmake/genmsgConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genmsg/cmake/genmsgConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genmsg/cmake/genmsg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genmsg/cmake/genmsgConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genmsg/cmake/genmsgConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genmsg/cmake/pkg-msg-paths.cmake.develspace.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genmsg/cmake/pkg-msg-paths.cmake.installspace.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genmsg/cmake/pkg-msg-extras.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genmsg/cmake/pkg-msg-extras.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genmsg/cmake/pkg-genmsg.context.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genmsg/cmake/pkg-genmsg.cmake.em">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/geneus/cmake/geneusConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\geneus\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/geneus/cmake/geneusConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\geneus\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/geneus/cmake/geneus-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\geneus\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/geneus/cmake/geneusConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\geneus\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/geneus/cmake/geneusConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\geneus\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/geneus/cmake/geneusConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\geneus\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/geneus/cmake/geneusConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\geneus\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/geneus/cmake/geneus-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\geneus\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/geneus/cmake/geneusConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\geneus\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/geneus/cmake/geneusConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\geneus\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genlisp/cmake/genlispConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genlisp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genlisp/cmake/genlispConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genlisp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genlisp/cmake/genlisp-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genlisp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genlisp/cmake/genlispConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genlisp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genlisp/cmake/genlispConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genlisp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genlisp/cmake/genlispConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genlisp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genlisp/cmake/genlispConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genlisp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genlisp/cmake/genlisp-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genlisp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genlisp/cmake/genlispConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genlisp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genlisp/cmake/genlispConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genlisp\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/gennodejs/cmake/gennodejsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gennodejs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/gennodejs/cmake/gennodejsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gennodejs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/gennodejs/cmake/gennodejs-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gennodejs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/gennodejs/cmake/gennodejsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gennodejs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/gennodejs/cmake/gennodejsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gennodejs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/gennodejs/cmake/gennodejsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gennodejs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/gennodejs/cmake/gennodejsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gennodejs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/gennodejs/cmake/gennodejs-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gennodejs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/gennodejs/cmake/gennodejsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gennodejs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/gennodejs/cmake/gennodejsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\gennodejs\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genpy/cmake/genpyConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genpy\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genpy/cmake/genpyConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genpy\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genpy/cmake/genpy-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genpy\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genpy/cmake/genpyConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genpy\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genpy/cmake/genpyConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genpy\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genpy/cmake/genpyConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genpy\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genpy/cmake/genpyConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genpy\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genpy/cmake/genpy-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genpy\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genpy/cmake/genpyConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genpy\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../opt/ros/kinetic/share/genpy/cmake/genpyConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\genpy\cmake\" />
       </Unit>
       <Unit filename="/home/ubuntu/qt_ros_ws/src/../../../../usr/src/gtest/CMakeLists.txt">
           <Option virtualFolder="CMake Files\..\..\..\..\usr\src\gtest\" />
@@ -1207,6 +2102,24 @@
       <Unit filename="/home/ubuntu/qt_ros_ws/src/../build/catkin_generated/installspace/_setup_util.py">
           <Option virtualFolder="CMake Files\..\build\catkin_generated\installspace\" />
       </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../build/gps/catkin_generated/ordered_paths.cmake">
+          <Option virtualFolder="CMake Files\..\build\gps\catkin_generated\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../build/gps/catkin_generated/ordered_paths.cmake">
+          <Option virtualFolder="CMake Files\..\build\gps\catkin_generated\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../build/gps/catkin_generated/package.cmake">
+          <Option virtualFolder="CMake Files\..\build\gps\catkin_generated\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../build/gps/catkin_generated/ordered_paths.cmake">
+          <Option virtualFolder="CMake Files\..\build\gps\catkin_generated\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../build/gps/catkin_generated/ordered_paths.cmake">
+          <Option virtualFolder="CMake Files\..\build\gps\catkin_generated\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../build/gps/catkin_generated/package.cmake">
+          <Option virtualFolder="CMake Files\..\build\gps\catkin_generated\" />
+      </Unit>
       <Unit filename="/home/ubuntu/qt_ros_ws/src/../build/guitest/catkin_generated/ordered_paths.cmake">
           <Option virtualFolder="CMake Files\..\build\guitest\catkin_generated\" />
       </Unit>
@@ -1225,6 +2138,60 @@
       <Unit filename="/home/ubuntu/qt_ros_ws/src/../build/guitest/catkin_generated/package.cmake">
           <Option virtualFolder="CMake Files\..\build\guitest\catkin_generated\" />
       </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../build/simple_voice/catkin_generated/ordered_paths.cmake">
+          <Option virtualFolder="CMake Files\..\build\simple_voice\catkin_generated\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../build/simple_voice/catkin_generated/ordered_paths.cmake">
+          <Option virtualFolder="CMake Files\..\build\simple_voice\catkin_generated\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../build/simple_voice/catkin_generated/package.cmake">
+          <Option virtualFolder="CMake Files\..\build\simple_voice\catkin_generated\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../build/simple_voice/catkin_generated/simple_voice-msg-extras.cmake.develspace.in">
+          <Option virtualFolder="CMake Files\..\build\simple_voice\catkin_generated\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../build/simple_voice/catkin_generated/simple_voice-msg-extras.cmake.installspace.in">
+          <Option virtualFolder="CMake Files\..\build\simple_voice\catkin_generated\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../build/simple_voice/catkin_generated/ordered_paths.cmake">
+          <Option virtualFolder="CMake Files\..\build\simple_voice\catkin_generated\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../build/simple_voice/catkin_generated/ordered_paths.cmake">
+          <Option virtualFolder="CMake Files\..\build\simple_voice\catkin_generated\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../build/simple_voice/catkin_generated/package.cmake">
+          <Option virtualFolder="CMake Files\..\build\simple_voice\catkin_generated\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../build/simple_voice/catkin_generated/simple_voice-msg-extras.cmake.develspace.in">
+          <Option virtualFolder="CMake Files\..\build\simple_voice\catkin_generated\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../build/simple_voice/catkin_generated/simple_voice-msg-extras.cmake.installspace.in">
+          <Option virtualFolder="CMake Files\..\build\simple_voice\catkin_generated\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../build/simple_voice/cmake/simple_voice-genmsg.cmake">
+          <Option virtualFolder="CMake Files\..\build\simple_voice\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../build/simple_voice/cmake/simple_voice-genmsg.cmake">
+          <Option virtualFolder="CMake Files\..\build\simple_voice\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../devel/share/simple_voice/cmake/simple_voice-msg-paths.cmake">
+          <Option virtualFolder="CMake Files\..\devel\share\simple_voice\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/../devel/share/simple_voice/cmake/simple_voice-msg-paths.cmake">
+          <Option virtualFolder="CMake Files\..\devel\share\simple_voice\cmake\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/gps/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\gps\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/gps/package.xml">
+          <Option virtualFolder="CMake Files\gps\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/gps/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\gps\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/gps/package.xml">
+          <Option virtualFolder="CMake Files\gps\" />
+      </Unit>
       <Unit filename="/home/ubuntu/qt_ros_ws/src/guitest/CMakeLists.txt">
           <Option virtualFolder="CMake Files\guitest\" />
       </Unit>
@@ -1242,6 +2209,18 @@
       </Unit>
       <Unit filename="/home/ubuntu/qt_ros_ws/src/guitest/resources/images.qrc">
           <Option virtualFolder="CMake Files\guitest\resources\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/simple_voice/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\simple_voice\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/simple_voice/package.xml">
+          <Option virtualFolder="CMake Files\simple_voice\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/simple_voice/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\simple_voice\" />
+      </Unit>
+      <Unit filename="/home/ubuntu/qt_ros_ws/src/simple_voice/package.xml">
+          <Option virtualFolder="CMake Files\simple_voice\" />
       </Unit>
    </Project>
 </CodeBlocks_project_file>

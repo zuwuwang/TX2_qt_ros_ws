@@ -22,7 +22,7 @@ static const uint qt_meta_data_guitest__MainWindow[] = {
        6,       // revision
        0,       // classname
        0,    0, // classinfo
-      12,   14, // methods
+      15,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -35,13 +35,16 @@ static const uint qt_meta_data_guitest__MainWindow[] = {
       88,  134,   47,   47, 0x0a,
      140,   80,   47,   47, 0x0a,
      172,   80,   47,   47, 0x0a,
-     208,   80,   47,   47, 0x0a,
-     240,  272,   47,   47, 0x0a,
-     280,   80,   47,   47, 0x0a,
-     309,   80,   47,   47, 0x0a,
-     341,   47,   47,   47, 0x0a,
-     361,   47,   47,   47, 0x0a,
-     387,   47,   47,   47, 0x0a,
+     204,   80,   47,   47, 0x0a,
+     240,   80,   47,   47, 0x0a,
+     272,  304,   47,   47, 0x0a,
+     312,   80,   47,   47, 0x0a,
+     341,   80,   47,   47, 0x0a,
+     369,   80,   47,   47, 0x0a,
+     397,   80,   47,   47, 0x0a,
+     428,   47,   47,   47, 0x0a,
+     448,   47,   47,   47, 0x0a,
+     474,   47,   47,   47, 0x0a,
 
        0        // eod
 };
@@ -51,11 +54,14 @@ static const char qt_meta_stringdata_guitest__MainWindow[] = {
     "\0on_button_connect_clicked(bool)\0"
     "checked\0on_checkbox_use_environment_stateChanged(int)\0"
     "state\0on_button_roscore_clicked(bool)\0"
+    "on_button_openCam_clicked(bool)\0"
     "on_button_onestepSLAM_clicked(bool)\0"
     "on_button_saveMap_clicked(bool)\0"
     "on_button_loadMap_clicked(bool)\0ckecked\0"
     "on_button_rviz_clicked(bool)\0"
-    "on_button_openCam_clicked(bool)\0"
+    "on_button_gps_clicked(bool)\0"
+    "on_button_nav_clicked(bool)\0"
+    "on_button_speech_clicked(bool)\0"
     "updateLoggingView()\0displayCameraImageLabel()\0"
     "mcnnResaultShow()\0"
 };
@@ -70,14 +76,17 @@ void guitest::MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, 
         case 1: _t->on_button_connect_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
         case 2: _t->on_checkbox_use_environment_stateChanged((*reinterpret_cast< int(*)>(_a[1]))); break;
         case 3: _t->on_button_roscore_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
-        case 4: _t->on_button_onestepSLAM_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
-        case 5: _t->on_button_saveMap_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
-        case 6: _t->on_button_loadMap_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
-        case 7: _t->on_button_rviz_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
-        case 8: _t->on_button_openCam_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
-        case 9: _t->updateLoggingView(); break;
-        case 10: _t->displayCameraImageLabel(); break;
-        case 11: _t->mcnnResaultShow(); break;
+        case 4: _t->on_button_openCam_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 5: _t->on_button_onestepSLAM_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 6: _t->on_button_saveMap_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 7: _t->on_button_loadMap_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 8: _t->on_button_rviz_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 9: _t->on_button_gps_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 10: _t->on_button_nav_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 11: _t->on_button_speech_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 12: _t->updateLoggingView(); break;
+        case 13: _t->displayCameraImageLabel(); break;
+        case 14: _t->mcnnResaultShow(); break;
         default: ;
         }
     }
@@ -115,9 +124,9 @@ int guitest::MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 12)
+        if (_id < 15)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 12;
+        _id -= 15;
     }
     return _id;
 }

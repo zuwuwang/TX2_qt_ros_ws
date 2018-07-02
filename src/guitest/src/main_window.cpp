@@ -111,7 +111,7 @@ void MainWindow::on_button_connect_clicked(bool checked ) {
     }
 
     // robot connection
-//    system("gnome-terminal  -x bash -c ' roslaunch turtlebot_bringup minimal.launch'&");
+    system("gnome-terminal  -x bash -c ' roslaunch turtlebot_bringup minimal.launch'&");
 
     // imagesavenode  init
 //    if( ! imagesavenode.init() )
@@ -119,10 +119,10 @@ void MainWindow::on_button_connect_clicked(bool checked ) {
 //      showNoMasterMessage();
 //    }
   // socketsendnode init
-    if( ! socketsendnode.init() )
-    {
-       showSocketInitFailedMessage();
-    }
+//    if( ! socketsendnode.init() )
+//    {
+//       showSocketInitFailedMessage();
+//    }
   // mcnnResaultShow  test
   /*********************
    * node.start
@@ -131,8 +131,8 @@ void MainWindow::on_button_connect_clicked(bool checked ) {
   showSlamMap();
   mcnnResaultShow();
   qnode.start();
- // imagesavenode.start();
-  socketsendnode.start();
+//  imagesavenode.start();
+ // socketsendnode.start();
 
 }
 
@@ -277,11 +277,23 @@ void MainWindow::on_button_saveMap_clicked(bool checked){
 }
 
 void MainWindow::on_button_loadMap_clicked(bool checked){
-  system("gnome-terminal  -x bash -c ' roslaunch turtlebot_navigation sick_amcl_demo.launch map_file:=/home/ubuntu/qt_ros_ws/slam_map'&");
+//  system("gnome-terminal  -x bash -c ' roslaunch turtlebot_navigation sick_amcl_demo.launch map_file:=/home/ubuntu/qt_ros_ws/slam_map'&");
+ system("gnome-terminal  -x bash -c ' roslaunch turtlebot_navigation sick_amcl_demo.launch map_file:=/home/ubuntu/map19.1.yaml'&");
 }
 
 void MainWindow::on_button_rviz_clicked(bool checked){
     system("gnome-terminal  -x bash -c ' roslaunch turtlebot_rviz_launchers view_navigation.launch --screen '&");
+}
+
+void MainWindow::on_button_gps_clicked(bool checked){
+  system("gnome-terminal  -x bash -c ' source ~/qt_ros_ws/devel/setup.bash ;  rosrun gps gps_response  '&");
+}
+void MainWindow::on_button_nav_clicked(bool checked){
+   system("gnome-terminal  -x bash -c ' python /home/ubuntu/qt_ros_ws/src/navigation/src/multinav.py'&");
+}
+
+void MainWindow::on_button_speech_clicked(bool checked){
+  system("gnome-terminal  -x bash -c ' source ~/qt_ros_ws/devel/setup.bash ; roslaunch simple_voice main_sttandtts.launch '&");
 }
 
 }  // namespace guitest

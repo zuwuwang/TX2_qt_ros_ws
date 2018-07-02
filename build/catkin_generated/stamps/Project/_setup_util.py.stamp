@@ -262,7 +262,7 @@ if __name__ == '__main__':
             sys.exit(1)
 
         # environment at generation time
-        CMAKE_PREFIX_PATH = '/home/ubuntu/qt_ros_ws/devel;/home/ubuntu/test_ws/devel;/home/ubuntu/turbot_ws/devel;/home/ubuntu/zwq_ws/devel;/home/ubuntu/catkin_ws/devel;/home/ubuntu/turtlebot/devel;/home/ubuntu/kobuki/devel;/home/ubuntu/rocon/devel;/opt/ros/kinetic'.split(';')
+        CMAKE_PREFIX_PATH = '/home/ubuntu/qt_ros_ws/devel;/home/ubuntu/cartographer/devel;/home/ubuntu/test_ws/devel;/home/ubuntu/turbot_ws/devel;/home/ubuntu/zwq_ws/devel;/home/ubuntu/catkin_ws/devel;/home/ubuntu/turtlebot/devel;/home/ubuntu/kobuki/devel;/home/ubuntu/rocon/devel;/opt/ros/kinetic'.split(';')
         # prepend current workspace if not already part of CPP
         base_path = os.path.dirname(__file__)
         if base_path not in CMAKE_PREFIX_PATH:
