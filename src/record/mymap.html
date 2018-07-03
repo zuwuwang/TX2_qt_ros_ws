@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8"> 
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+    <script type="text/javascript" src="http://static.robotwebtools.org/EventEmitter2/current/eventemitter2.min.js"></script>
+    <script type="text/javascript" src="http://static.robotwebtools.org/roslibjs/current/roslib.min.js"></script> 
+    <title>Mymap</title>   
+    <link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css"/>
+    <script type="text/javascript" src="http://webapi.amap.com/maps?v=1.4.6&key=55c0602c15e8f76defe90abad74b6d27&plugin=AMap.Walking"></script>
+    <script type="text/javascript" src="http://cache.amap.com/lbs/static/addToolbar.js"></script>
+    <style type="text/css">
+        #panel {
+            position: fixed;
+            background-color: white;
+            max-height: 90%;
+            overflow-y: auto;
+            top: 10px;
+            right: 10px;
+            width: 280px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container"></div>
+<div id="panel"></div>		
+<script type="text/javascript">	
+var map;
+var lat;
+var lon;
+var lon1;
+var lat1;
+var lonlat;
+var lonlat1;
+var walking;
+	//初始化地图----地图加载 ----//
+    map = new AMap.Map("container", {
+        resizeEnable: true     
+        
+    });
+
+     //------地标建筑点标记--------//
+        var landmarks = [
+        [121.388988,31.316225],//益新食堂
+        [121.388876,31.317691],//山明食堂
+        [121.395699,31.316344],//水秀食堂
+        [121.391317,31.319263],//尔美食堂
+        [121.398618,31.314854],//东区食堂
+        [121.399438,31.317045],//翔英大楼
+        [121.399626,31.314204],//钱伟长图书馆
+        [121.392239,31.316857],//图书馆
+        [121.394203,31.318374],//音乐学院
+        [121.395469,31.317916],//伟长楼
+        [121.397427,31.318374],//东门
+        [121.389053,31.320464],//北门
+        [121.396005,31.311912],//南门
+        [121.387679,31.31521],//西门
+        [121.39884,31.312806],//经管楼
+        [121.390579,31.320478],//乐乎新楼
+    ];
+    
+ for (var i = 0; i < landmarks.length; i++) {   
+    var marker = new AMap.Marker({
+    					//icon: icon,
+    					position: landmarks[i],
+    					map: map
+    				});
+    }
+
+var ros = new ROSLIB.Ros({
+    url : 'ws://localhost:9090'
+  });
+
+  ros.on('connection', function() {
+    console.log('Connected to websocket server.');
+  });
+
+  ros.on('error', function(error) {
+    console.log('Error connecting to websocket server: ', error);
+  });
+
+  ros.on('close', function() {
+    console.log('Connection to websocket server closed.');
+  });
+  // Subscribing to a Topic
+  // ----------------------
+
+var listener = new ROSLIB.Topic({
+    ros : ros,
+    name : '/sendgps',
+    messageType : 'record/lonlat'
+  });
+
+   listener.subscribe(function(message) {
+   console.log('这个sub在定位，目前被调用了');
+   lon = message.lon.toFixed(5);
+   lat = message.lat.toFixed(5);
+   lonlat = new AMap.LngLat(lon,lat);
+    map.setZoomAndCenter(17, lonlat);
+        // 在新中心点添加 marker 
+        var marker = new AMap.Marker({
+            map: map,
+            position: lonlat,
+            icon: new AMap.Icon({            
+            size: new AMap.Size(40, 50),  //图标大小
+            image: "http://webapi.amap.com/theme/v1.3/images/newpc/way_btn2.png",
+            imageOffset: new AMap.Pixel(0, -60)
+        })        
+        });
+    //listener.unsubscribe();
+  });
+var listener1 = new ROSLIB.Topic({
+    ros : ros,
+    name : '/goalposition',
+    messageType : 'record/lonlat'
+  });
+listener1.subscribe(function(message) {
+   console.log('这个sub在规划路径，目前被调用了');
+        walking = new AMap.Walking({
+        map: map,
+        panel: "panel"
+    }); 
+    lon1 = message.lon.toFixed(5);
+    lat1 = message.lat.toFixed(5);
+    lonlat1 = new AMap.LngLat(lon1,lat1);
+    walking.search(lonlat, lonlat1);
+    //listener1.unsubscribe();
+  });
+</script> 
+</body>
+</html>

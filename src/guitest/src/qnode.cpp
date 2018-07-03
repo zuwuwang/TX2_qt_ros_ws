@@ -76,10 +76,10 @@ void QNode::run() {
 
 		std_msgs::String msg;
 		std::stringstream ss;
-		ss << "hello world " << count;
+    ss << "is running " << count;
 		msg.data = ss.str();
 		chatter_publisher.publish(msg);
-		log(Info,std::string("I sent: ")+msg.data);
+    log(Info,std::string("system : ")+msg.data);
     ros::spinOnce();
 		loop_rate.sleep();
 		++count;

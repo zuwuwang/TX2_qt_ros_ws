@@ -1,0 +1,261 @@
+position:
+position.x=1.505164 , position.y=0.859181 , position.z=0.000000 , 
+orientation:
+orientation.x=0.000000 , orientation.y=0.000000 , orientation.z=0.998173 , orientation.w=-0.060416 , 
+linear:
+linear.x=0.000000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=0.400000 , 
+linear:
+linear.x=0.000000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=0.800000 , 
+linear:
+linear.x=0.000000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=1.000000 , 
+linear:
+linear.x=0.000000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=1.000000 , 
+linear:
+linear.x=0.000000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=0.978947 , 
+linear:
+linear.x=0.500000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=0.955679 , 
+linear:
+linear.x=0.500000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=0.929844 , 
+linear:
+linear.x=0.500000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=0.975255 , 
+linear:
+linear.x=0.500000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=0.932935 , 
+linear:
+linear.x=0.500000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=0.926253 , 
+linear:
+linear.x=0.500000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=0.950132 , 
+linear:
+linear.x=0.500000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=0.739550 , 
+linear:
+linear.x=0.354692 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=0.000000 , 
+linear:
+linear.x=0.231770 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=0.231579 , 
+linear:
+linear.x=0.163423 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=0.589474 , 
+linear:
+linear.x=0.107094 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=0.568421 , 
+linear:
+linear.x=0.100000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=0.252632 , 
+linear:
+linear.x=0.000000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=0.000000 , 
+linear:
+linear.x=0.000000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=0.400000 , 
+linear:
+linear.x=0.000000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=0.800000 , 
+linear:
+linear.x=0.000000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=0.876556 , 
+linear:
+linear.x=0.000000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=0.577427 , 
+linear:
+linear.x=0.000000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=0.400000 , 
+linear:
+linear.x=0.000000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=0.400000 , 
+linear:
+linear.x=0.000000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=0.000000 , 
+linear:
+linear.x=0.000000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=0.000000 , 
+position:
+position.x=0.745386 , position.y=0.551643 , position.z=0.000000 , 
+orientation:
+orientation.x=0.000000 , orientation.y=0.000000 , orientation.z=0.961139 , orientation.w=-0.276065 , 
+linear:
+linear.x=0.500000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=0.315789 , 
+linear:
+linear.x=0.500000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=0.631579 , 
+linear:
+linear.x=0.500000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=0.474238 , 
+linear:
+linear.x=0.352997 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=0.000000 , 
+linear:
+linear.x=0.207524 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=-0.063158 , 
+linear:
+linear.x=0.108714 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=-0.463158 , 
+linear:
+linear.x=0.100000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=-0.315789 , 
+linear:
+linear.x=0.000000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=-0.000000 , 
+linear:
+linear.x=0.000000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=0.400000 , 
+linear:
+linear.x=0.000000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=0.400000 , 
+linear:
+linear.x=0.000000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=0.000000 , 
+linear:
+linear.x=0.000000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=0.000000 , 
+position:
+position.x=0.175087 , position.y=0.640313 , position.z=0.000000 , 
+orientation:
+orientation.x=0.000000 , orientation.y=0.000000 , orientation.z=0.964905 , orientation.w=-0.262600 , 
+linear:
+linear.x=0.500000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=-0.400000 , 
+linear:
+linear.x=0.500000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=-0.800000 , 
+linear:
+linear.x=0.400415 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=-1.000000 , 
+linear:
+linear.x=0.279481 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=-1.000000 , 
+linear:
+linear.x=0.151898 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=-1.000000 , 
+linear:
+linear.x=0.162240 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=-1.000000 , 
+linear:
+linear.x=0.122515 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=-1.000000 , 
+linear:
+linear.x=0.100000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=-1.000000 , 
+linear:
+linear.x=0.100000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=-0.642105 , 
+linear:
+linear.x=0.000000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=-0.242105 , 
+linear:
+linear.x=0.000000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=-0.000000 , 
+linear:
+linear.x=0.000000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=0.400000 , 
+linear:
+linear.x=0.000000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=0.800000 , 
+linear:
+linear.x=0.000000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=1.000000 , 
+linear:
+linear.x=0.000000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=1.000000 , 
+linear:
+linear.x=0.000000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=1.000000 , 
+linear:
+linear.x=0.000000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=1.000000 , 
+linear:
+linear.x=0.000000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=1.000000 , 
+linear:
+linear.x=0.000000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=0.696159 , 
+linear:
+linear.x=0.000000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=0.487170 , 
+linear:
+linear.x=0.000000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=0.400000 , 
+linear:
+linear.x=0.000000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=0.400000 , 
+linear:
+linear.x=0.000000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=0.000000 , 
+linear:
+linear.x=0.000000 , linear.y=0.000000 , linear.z=0.000000 , 
+angular:
+angular.x=0.000000 , angular.y=0.000000 , angular.z=0.000000 , 
+The number of num_move_base_msgs:3/nThe number of num_geometry_msgs:62

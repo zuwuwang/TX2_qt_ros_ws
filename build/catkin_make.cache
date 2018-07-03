@@ -1,2 +1,2 @@
-gps:guitest:simple_voice
+guitest:record:simple_voice
 -G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCATKIN_DEVEL_PREFIX=/home/ubuntu/qt_ros_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/qt_ros_ws/install

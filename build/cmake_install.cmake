@@ -117,8 +117,8 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/ubuntu/qt_ros_ws/build/gtest/cmake_install.cmake")
-  include("/home/ubuntu/qt_ros_ws/build/gps/cmake_install.cmake")
   include("/home/ubuntu/qt_ros_ws/build/guitest/cmake_install.cmake")
+  include("/home/ubuntu/qt_ros_ws/build/record/cmake_install.cmake")
   include("/home/ubuntu/qt_ros_ws/build/simple_voice/cmake_install.cmake")
 
 endif()

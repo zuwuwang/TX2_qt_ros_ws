@@ -68,7 +68,7 @@ MainWindow::~MainWindow() {}
 
 void MainWindow::showNoMasterMessage() {
 	QMessageBox msgBox;
-	msgBox.setText("Couldn't find the ros master.");
+  msgBox.setText("can't find ros master,please run 'roscore'...");
 	msgBox.exec();
     close();
 }
@@ -76,7 +76,15 @@ void MainWindow::showNoMasterMessage() {
 void MainWindow::showSocketInitFailedMessage()
 {
   QMessageBox msgBox;
-  msgBox.setText(" Connect server failed, please try again.");
+  msgBox.setText(" connect server failed,please try again...");
+  msgBox.exec();
+    close();
+}
+
+void MainWindow::showPeopleNumWarningMessage()
+{
+  QMessageBox msgBox;
+  msgBox.setText("people number more than 5.");
   msgBox.exec();
     close();
 }
@@ -96,6 +104,14 @@ void MainWindow::on_button_connect_clicked(bool checked ) {
 //      ui.button_connect->setEnabled(false);
 //    }
 //  }
+  //turtleminal commond
+  // commond need time to tun ,cant find ros mater
+//  system("gnome-terminal  -x bash -c ' roscore '&");
+//  system("gnome-terminal  -x bash -c ' roslaunch ueye_cam rgb8.launch '&");
+//  system("gnome-terminal  -x bash -c ' roslaunch turtlebot_bringup minimal.launch'&");
+//  system("gnome-terminal  -x bash -c './natapp -authtoken=96d64ba4448d74eb '&");
+//  system("gnome-terminal  -x bash -c ' source ~/qt_ros_ws/devel/setup.bash ; roslaunch simple_voice main_sttandtts.launch '&");
+//  sleep(10);
 
   // init qnode
     if ( ! qnode.init(ui.line_edit_master->text().toStdString(), ui.line_edit_host->text().toStdString()) )
@@ -110,30 +126,27 @@ void MainWindow::on_button_connect_clicked(bool checked ) {
       ui.line_edit_topic->setReadOnly(true);
     }
 
-    // robot connection
-   // system("gnome-terminal  -x bash -c ' roslaunch turtlebot_bringup minimal.launch'&");
-
     // imagesavenode  init
     if( ! imagesavenode.init() )
     {
       showNoMasterMessage();
+      close();
     }
-  // socketsendnode init
+   // socketsendnode init
 //    if( ! socketsendnode.init() )
 //    {
 //       showSocketInitFailedMessage();
+//       close();
 //    }
-  // mcnnResaultShow  test
   /*********************
    * node.start
    * ********************/
-  showWebMap();
-  showSlamMap();
   mcnnResaultShow();
   qnode.start();
   imagesavenode.start();
- // socketsendnode.start();
-
+//  socketsendnode.start();
+  showWebMap();
+  showSlamMap();
 }
 
 void MainWindow::showSlamMap(){
@@ -183,22 +196,23 @@ void MainWindow::displayCameraImageLabel(){
   fileTime = localtime(&t);
   strftime(filePath,100,"/home/ubuntu/qt_ros_ws/image2/%Y%m%d_%H%M%S.jpg",fileTime);
   strftime(fileName,100,"%Y%m%d_%H%M%S.jpg",fileTime);
-
   cv::Mat img2display = imagesavenode.cameraImage;
   cv::imwrite(filePath,img2display);
-
   cv::cvtColor(img2display,img2display,CV_BGR2RGB);
   QImage idsImage(img2display.data,img2display.cols,img2display.rows,img2display.cols*img2display.channels(),QImage::Format_RGB888);
   QImage cameraImageScaled;
   cameraImageScaled = idsImage.scaled(ui.label_cameraImg->size(),Qt::KeepAspectRatio);
   ui.label_cameraImg->setPixmap(QPixmap::fromImage(cameraImageScaled));
-
 }
 
 void MainWindow::mcnnResaultShow(){
   num =atof(socketsendnode.peopleNum);
   QString mcnnNum = QString::number( num,10);
   ui.line_edit_mcnn->setText(mcnnNum);
+  if ( num >= 1)
+  {
+    showPeopleNumWarningMessage();
+  }
 }
 
 /*****************************************************************************
@@ -252,9 +266,6 @@ void MainWindow::closeEvent(QCloseEvent *event)
 	QMainWindow::closeEvent(event);
 }
 
-
-
-
 /*****************************************************************************
 ** Implementation [ Add Your Button Response Here ]
 *****************************************************************************/
@@ -269,6 +280,10 @@ void MainWindow::on_button_connect_turtlebot_clicked(bool checked){
 }
 void MainWindow::on_button_openCam_clicked(bool checked){
   system("gnome-terminal  -x bash -c ' roslaunch ueye_cam rgb8.launch '&");
+}
+
+void MainWindow::on_button_natapp_clicked(bool checked){
+  system("gnome-terminal  -x bash -c './natapp -authtoken=96d64ba4448d74eb '&");
 }
 
 void MainWindow::on_button_onestepSLAM_clicked(bool checked){

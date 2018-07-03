@@ -22,7 +22,7 @@ static const uint qt_meta_data_guitest__MainWindow[] = {
        6,       // revision
        0,       // classname
        0,    0, // classinfo
-      16,   14, // methods
+      17,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -36,16 +36,17 @@ static const uint qt_meta_data_guitest__MainWindow[] = {
      140,   80,   47,   47, 0x0a,
      172,   80,   47,   47, 0x0a,
      204,   80,   47,   47, 0x0a,
-     240,   80,   47,   47, 0x0a,
-     272,  304,   47,   47, 0x0a,
-     312,   80,   47,   47, 0x0a,
-     341,   80,   47,   47, 0x0a,
-     383,   80,   47,   47, 0x0a,
-     411,   80,   47,   47, 0x0a,
-     439,   80,   47,   47, 0x0a,
-     470,   47,   47,   47, 0x0a,
-     490,   47,   47,   47, 0x0a,
-     516,   47,   47,   47, 0x0a,
+     235,   80,   47,   47, 0x0a,
+     271,   80,   47,   47, 0x0a,
+     303,  335,   47,   47, 0x0a,
+     343,   80,   47,   47, 0x0a,
+     372,   80,   47,   47, 0x0a,
+     414,   80,   47,   47, 0x0a,
+     442,   80,   47,   47, 0x0a,
+     470,   80,   47,   47, 0x0a,
+     501,   47,   47,   47, 0x0a,
+     521,   47,   47,   47, 0x0a,
+     547,   47,   47,   47, 0x0a,
 
        0        // eod
 };
@@ -56,6 +57,7 @@ static const char qt_meta_stringdata_guitest__MainWindow[] = {
     "checked\0on_checkbox_use_environment_stateChanged(int)\0"
     "state\0on_button_roscore_clicked(bool)\0"
     "on_button_openCam_clicked(bool)\0"
+    "on_button_natapp_clicked(bool)\0"
     "on_button_onestepSLAM_clicked(bool)\0"
     "on_button_saveMap_clicked(bool)\0"
     "on_button_loadMap_clicked(bool)\0ckecked\0"
@@ -79,17 +81,18 @@ void guitest::MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, 
         case 2: _t->on_checkbox_use_environment_stateChanged((*reinterpret_cast< int(*)>(_a[1]))); break;
         case 3: _t->on_button_roscore_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
         case 4: _t->on_button_openCam_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
-        case 5: _t->on_button_onestepSLAM_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
-        case 6: _t->on_button_saveMap_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
-        case 7: _t->on_button_loadMap_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
-        case 8: _t->on_button_rviz_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
-        case 9: _t->on_button_connect_turtlebot_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
-        case 10: _t->on_button_gps_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
-        case 11: _t->on_button_nav_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
-        case 12: _t->on_button_speech_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
-        case 13: _t->updateLoggingView(); break;
-        case 14: _t->displayCameraImageLabel(); break;
-        case 15: _t->mcnnResaultShow(); break;
+        case 5: _t->on_button_natapp_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 6: _t->on_button_onestepSLAM_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 7: _t->on_button_saveMap_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 8: _t->on_button_loadMap_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 9: _t->on_button_rviz_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 10: _t->on_button_connect_turtlebot_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 11: _t->on_button_gps_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 12: _t->on_button_nav_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 13: _t->on_button_speech_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 14: _t->updateLoggingView(); break;
+        case 15: _t->displayCameraImageLabel(); break;
+        case 16: _t->mcnnResaultShow(); break;
         default: ;
         }
     }
@@ -127,9 +130,9 @@ int guitest::MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 16)
+        if (_id < 17)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 16;
+        _id -= 17;
     }
     return _id;
 }

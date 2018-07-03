@@ -44,6 +44,7 @@ public:
 	void closeEvent(QCloseEvent *event); // Overloaded function
 	void showNoMasterMessage();
   void showSocketInitFailedMessage();
+  void showPeopleNumWarningMessage();
   void showSlamMap();
   void showWebMap();
   long num = 0;
@@ -59,6 +60,7 @@ public Q_SLOTS:
   // TODO HERE,ADD YOUR BUTTON
   void on_button_roscore_clicked(bool checked );
   void on_button_openCam_clicked(bool checked );
+  void on_button_natapp_clicked(bool checked);
 
   void on_button_onestepSLAM_clicked(bool checked );
   void on_button_saveMap_clicked(bool checked);

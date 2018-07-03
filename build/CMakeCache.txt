@@ -900,6 +900,8 @@ geometry_msgs_DIR:PATH=/opt/ros/kinetic/share/geometry_msgs/cmake
 //Value Computed by CMake
 gps_BINARY_DIR:STATIC=/home/ubuntu/qt_ros_ws/build/gps
 
+gps_DIR:PATH=
+
 //Value Computed by CMake
 gps_SOURCE_DIR:STATIC=/home/ubuntu/qt_ros_ws/src/gps
 
@@ -954,6 +956,14 @@ pluginlib_DIR:PATH=/opt/ros/kinetic/share/pluginlib/cmake
 
 //The directory containing a CMake configuration file for qt_build.
 qt_build_DIR:PATH=/opt/ros/kinetic/share/qt_build/cmake
+
+//Value Computed by CMake
+record_BINARY_DIR:STATIC=/home/ubuntu/qt_ros_ws/build/record
+
+record_DIR:PATH=
+
+//Value Computed by CMake
+record_SOURCE_DIR:STATIC=/home/ubuntu/qt_ros_ws/src/record
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/kinetic/share/rosconsole/cmake

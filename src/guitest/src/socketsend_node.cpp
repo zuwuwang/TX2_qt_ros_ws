@@ -51,7 +51,6 @@ bool SocketSendNode::init() {
  // Add your ros communications here. Socket Init Here, Connect Socket
  // image_transport::ImageTransport transport_socket(n);
  // socketSend_subscriber = transport_socket.subscribe("/camera/image_raw",1,&SocketSendNode::socketSendImage,this); // TX2 different
-
   qDebug("start  init socket ...");
      //get server ip addr
   qDebug("ServerIPAddress %s\n",SERVER_IP_ADDRESS);
@@ -118,7 +117,6 @@ void SocketSendNode::socketSendImage(const sensor_msgs::ImageConstPtr &msg){
       {
           // set imgSaveFlag
           socketSendFlag = false;
-          ROS_INFO("F");
           //get img & show,transfer ros img to cv img
           socket2Send = cv_bridge::toCvShare(msg, "bgr8")->image;
           struct tm* fileTime;
@@ -132,21 +130,17 @@ void SocketSendNode::socketSendImage(const sensor_msgs::ImageConstPtr &msg){
           strftime(filePath,100,"/home/ubuntu/qt_ros_ws/image3/%Y%m%d_%H%M%S.jpg",fileTime);
           strftime(fileName,20,"%Y%m%d_%H%M%S.jpg",fileTime);
          // cv::imwrite(filePath,socket2Send);
-
-          // TODO, socket send
-          // local img test
+         // local img test
          // cv::Mat test = cv::imread("/home/nvidia/qt_ros_ws/devel/lib/guitest/1.jpg");
           vector<uchar> socket2SendEncode;
           cv::imencode(".jpg",socket2Send,socket2SendEncode);
           cv::Mat decode;
           decode = cv::imdecode(socket2SendEncode,CV_LOAD_IMAGE_COLOR);
           cv::imwrite(filePath,decode);
-
           int socket2SendSize = 3*socket2Send.rows*socket2Send.cols;
           int socket2SendEncodeSize = socket2SendEncode.size();
           uchar* socketSendBuffer = new uchar[socket2SendEncodeSize];
           copy(socket2SendEncode.begin(),socket2SendEncode.end(),socketSendBuffer);
-
 
           // send $$
           // send(client_socket, "$$", 2, 0);
@@ -161,17 +155,14 @@ void SocketSendNode::socketSendImage(const sensor_msgs::ImageConstPtr &msg){
           while( toSend >0 )
           {
             int realSendSize =qMin(toSend, 8192);
-
             received = send(client_socket, socketSendBuffer + finished, realSendSize, 0);
             toSend -= received;
             finished += received;
             count = count +1;
           }
         // receive resault
-         //peopleNum = "8";
          recv(client_socket, peopleNum, 20, 0);
         // ui display mcnnResault
-
          Q_EMIT mcnnResault();
        }
         catch (cv_bridge::Exception& e)
