@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>simple_voice</name>
+  <version>0.2.1</version>
+  <description>The simple_voice package</description>
+
+  <maintainer email="jcl@todo.todo">jcl</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+ <build_depend>rospy</build_depend>
+  <exec_depend>rospy</exec_depend>
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend> 
+  <build_depend>std_msgs</build_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>

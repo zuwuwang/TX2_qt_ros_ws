@@ -1,0 +1,318 @@
+/**
+ * @file /src/main_window.cpp
+ *
+ * @brief Implementation for the qt gui.
+ *
+ * @date February 2011
+ **/
+/*****************************************************************************
+** Includes
+*****************************************************************************/
+
+#include <QtGui>
+#include <QMessageBox>
+#include <iostream>
+#include "../include/guitest/main_window.hpp"
+
+/*****************************************************************************
+** Namespaces
+*****************************************************************************/
+
+namespace guitest {
+
+using namespace Qt;
+
+/*****************************************************************************
+** Implementation [MainWindow]
+*****************************************************************************/
+
+MainWindow::MainWindow(int argc, char** argv, QWidget *parent)
+	: QMainWindow(parent)
+  , qnode(argc,argv)  //TODO HERE,ADD YOUR NODE INIT WITH PARAM, type:catkin_make in terminal (in qt_ros_ws)
+  , imagesavenode(argc,argv)
+  , socketsendnode(argc,argv)
+{
+	ui.setupUi(this); // Calling this incidentally connects all ui's triggers to on_...() callbacks in this class.
+    QObject::connect(ui.actionAbout_Qt, SIGNAL(triggered(bool)), qApp, SLOT(aboutQt())); // qApp is a global variable for the application
+    ReadSettings();
+	setWindowIcon(QIcon(":/images/icon.png"));
+    QObject::connect(&qnode, SIGNAL(rosShutdown()), this, SLOT(close()));
+    QObject::connect(&imagesavenode,SIGNAL(rosShutdown()),this,SLOT(close()));
+    QObject::connect(&socketsendnode,SIGNAL(rosShutdown()),this,SLOT(close()));
+
+    // display in ui
+     QObject::connect(&imagesavenode,SIGNAL(displayCameraImage()),this,SLOT(displayCameraImageLabel()));
+     QObject::connect(&socketsendnode,SIGNAL(mcnnResault()),this,SLOT(mcnnResaultShow()));
+
+	/*********************
+	** Logging
+	**********************/
+	ui.view_logging->setModel(qnode.loggingModel());
+    QObject::connect(&qnode, SIGNAL(loggingUpdated()), this, SLOT(updateLoggingView()));
+
+
+    /*********************
+    ** Auto Start
+    **********************/
+    if ( ui.checkbox_remember_settings->isChecked() )
+    {
+        on_button_connect_clicked(true);
+    }
+}
+
+MainWindow::~MainWindow() {}
+
+/*****************************************************************************
+** Implementation [Slots]
+*****************************************************************************/
+
+void MainWindow::showNoMasterMessage() {
+	QMessageBox msgBox;
+  msgBox.setText("can't find ros master,please run 'roscore'...");
+	msgBox.exec();
+    close();
+}
+
+void MainWindow::showSocketInitFailedMessage()
+{
+  QMessageBox msgBox;
+  msgBox.setText(" connect server failed,please try again...");
+  msgBox.exec();
+    close();
+}
+
+void MainWindow::showPeopleNumWarningMessage()
+{
+  QMessageBox msgBox;
+  msgBox.setText("people number more than 5.");
+  msgBox.exec();
+    close();
+}
+/*
+ * These triggers whenever the button is clicked, regardless of whether it
+ * is already checked or not.
+ */
+
+void MainWindow::on_button_connect_clicked(bool checked ) {
+//  if ( ui.checkbox_use_environment->isChecked() )
+//  {
+//    if ( !qnode.init() )
+//    {
+//      showNoMasterMessage();
+//    } else
+//    {
+//      ui.button_connect->setEnabled(false);
+//    }
+//  }
+  //turtleminal commond
+  // commond need time to tun ,cant find ros mater
+//  system("gnome-terminal  -x bash -c ' roscore '&");
+//  system("gnome-terminal  -x bash -c ' roslaunch ueye_cam rgb8.launch '&");
+//  system("gnome-terminal  -x bash -c ' roslaunch turtlebot_bringup minimal.launch'&");
+//  system("gnome-terminal  -x bash -c './natapp -authtoken=96d64ba4448d74eb '&");
+//  system("gnome-terminal  -x bash -c ' source ~/qt_ros_ws/devel/setup.bash ; roslaunch simple_voice main_sttandtts.launch '&");
+//  sleep(10);
+
+  // init qnode
+    if ( ! qnode.init(ui.line_edit_master->text().toStdString(), ui.line_edit_host->text().toStdString()) )
+    {
+      showNoMasterMessage();
+    }
+  else
+    {
+      ui.button_connect->setEnabled(false);
+      ui.line_edit_master->setReadOnly(true);
+      ui.line_edit_host->setReadOnly(true);
+      ui.line_edit_topic->setReadOnly(true);
+    }
+
+    // imagesavenode  init
+    if( ! imagesavenode.init() )
+    {
+      showNoMasterMessage();
+      close();
+    }
+   // socketsendnode init
+//    if( ! socketsendnode.init() )
+//    {
+//       showSocketInitFailedMessage();
+//       close();
+//    }
+  /*********************
+   * node.start
+   * ********************/
+  mcnnResaultShow();
+  qnode.start();
+  imagesavenode.start();
+//  socketsendnode.start();
+  showWebMap();
+  showSlamMap();
+}
+
+void MainWindow::showSlamMap(){
+  QImage slamMap;
+  slamMap.load("/home/ubuntu/qt_ros_ws/map/map.pgm");
+  ui.label_slammap->setPixmap(QPixmap::fromImage(slamMap));
+}
+
+void MainWindow::showWebMap(){
+  QWebView *webmap = new QWebView(this);
+  webmap->load(QUrl("file:///home/ubuntu/qt_ros_ws/map/mymap.html"));
+  webmap->setFocus();
+  webmap->setGeometry(385,377,401,327);
+  webmap->show();
+}
+void MainWindow::on_checkbox_use_environment_stateChanged(int state) {
+	bool enabled;
+	if ( state == 0 ) {
+		enabled = true;
+	} else {
+		enabled = false;
+	}
+	ui.line_edit_master->setEnabled(enabled);
+	ui.line_edit_host->setEnabled(enabled);
+	//ui.line_edit_topic->setEnabled(enabled);
+}
+
+/*****************************************************************************
+** Implemenation [Slots][manually connected]
+*****************************************************************************/
+
+/**
+ * This function is signalled by the underlying model. When the model changes,
+ * this will drop the cursor down to the last line in the QListview to ensure
+ * the user can always see the latest log message.
+ */
+void MainWindow::updateLoggingView() {
+        ui.view_logging->scrollToBottom();
+}
+
+void MainWindow::displayCameraImageLabel(){
+  struct tm* fileTime;
+  char filePath[100] = {0};
+  char fileName[100] = {0};
+  time_t t;
+  t = time(NULL);
+  fileTime = localtime(&t);
+  strftime(filePath,100,"/home/ubuntu/qt_ros_ws/image2/%Y%m%d_%H%M%S.jpg",fileTime);
+  strftime(fileName,100,"%Y%m%d_%H%M%S.jpg",fileTime);
+  cv::Mat img2display = imagesavenode.cameraImage;
+  cv::imwrite(filePath,img2display);
+  cv::cvtColor(img2display,img2display,CV_BGR2RGB);
+  QImage idsImage(img2display.data,img2display.cols,img2display.rows,img2display.cols*img2display.channels(),QImage::Format_RGB888);
+  QImage cameraImageScaled;
+  cameraImageScaled = idsImage.scaled(ui.label_cameraImg->size(),Qt::KeepAspectRatio);
+  ui.label_cameraImg->setPixmap(QPixmap::fromImage(cameraImageScaled));
+}
+
+void MainWindow::mcnnResaultShow(){
+  num =atof(socketsendnode.peopleNum);
+  QString mcnnNum = QString::number( num,10);
+  ui.line_edit_mcnn->setText(mcnnNum);
+  if ( num >= 1)
+  {
+    showPeopleNumWarningMessage();
+  }
+}
+
+/*****************************************************************************
+** Implementation [Menu]
+*****************************************************************************/
+
+void MainWindow::on_actionAbout_triggered() {
+    QMessageBox::about(this, tr("About ..."),tr("<h2>PACKAGE_NAME Test Program 0.10</h2><p>Copyright Yujin Robot</p><p>This package needs an about description.</p>"));
+}
+
+/*****************************************************************************
+** Implementation [Configuration]
+*****************************************************************************/
+
+void MainWindow::ReadSettings() {
+    QSettings settings("Qt-Ros Package", "guitest");
+    restoreGeometry(settings.value("geometry").toByteArray());
+    restoreState(settings.value("windowState").toByteArray());
+    QString master_url = settings.value("master_url",QString("http://localhost:11311/")).toString();
+    QString host_url = settings.value("host_url", QString("192.168.43.225")).toString();
+    //QString topic_name = settings.value("topic_name", QString("/chatter")).toString();
+    ui.line_edit_master->setText(master_url);
+    ui.line_edit_host->setText(host_url);
+    //ui.line_edit_topic->setText(topic_name);
+    bool remember = settings.value("remember_settings", false).toBool();
+    ui.checkbox_remember_settings->setChecked(remember);
+    bool checked = settings.value("use_environment_variables", false).toBool();
+    ui.checkbox_use_environment->setChecked(checked);
+    if ( checked ) {
+    	ui.line_edit_master->setEnabled(false);
+    	ui.line_edit_host->setEnabled(false);
+    	//ui.line_edit_topic->setEnabled(false);
+    }
+}
+
+void MainWindow::WriteSettings() {
+    QSettings settings("Qt-Ros Package", "guitest");
+    settings.setValue("master_url",ui.line_edit_master->text());
+    settings.setValue("host_url",ui.line_edit_host->text());
+    //settings.setValue("topic_name",ui.line_edit_topic->text());
+    settings.setValue("use_environment_variables",QVariant(ui.checkbox_use_environment->isChecked()));
+    settings.setValue("geometry", saveGeometry());
+    settings.setValue("windowState", saveState());
+    settings.setValue("remember_settings",QVariant(ui.checkbox_remember_settings->isChecked()));
+
+}
+
+void MainWindow::closeEvent(QCloseEvent *event)
+{
+	WriteSettings();
+	QMainWindow::closeEvent(event);
+}
+
+/*****************************************************************************
+** Implementation [ Add Your Button Response Here ]
+*****************************************************************************/
+
+void MainWindow::on_button_roscore_clicked(bool checked)
+{
+  system("gnome-terminal  -x bash -c ' roscore '&");
+}
+
+void MainWindow::on_button_connect_turtlebot_clicked(bool checked){
+  system("gnome-terminal  -x bash -c ' roslaunch turtlebot_bringup minimal.launch '&");
+}
+void MainWindow::on_button_openCam_clicked(bool checked){
+  system("gnome-terminal  -x bash -c ' roslaunch ueye_cam rgb8.launch '&");
+}
+
+void MainWindow::on_button_natapp_clicked(bool checked){
+  system("gnome-terminal  -x bash -c './natapp -authtoken=96d64ba4448d74eb '&");
+}
+
+void MainWindow::on_button_onestepSLAM_clicked(bool checked){
+    system("gnome-terminal  -x bash -c ' roslaunch sick_tim ALL.launch '&");
+}
+
+void MainWindow::on_button_saveMap_clicked(bool checked){
+   system("gnome-terminal  -x bash -c ' rosrun map_server map_saver -f /home/ubuntu/qt_ros_ws/slam_map '&");
+}
+
+void MainWindow::on_button_loadMap_clicked(bool checked){
+//  system("gnome-terminal  -x bash -c ' roslaunch turtlebot_navigation sick_amcl_demo.launch map_file:=/home/ubuntu/qt_ros_ws/slam_map'&");
+ system("gnome-terminal  -x bash -c ' roslaunch turtlebot_navigation sick_amcl_demo.launch map_file:=/home/ubuntu/map19.1.yaml'&");
+}
+
+void MainWindow::on_button_rviz_clicked(bool checked){
+    system("gnome-terminal  -x bash -c ' roslaunch turtlebot_rviz_launchers view_navigation.launch --screen '&");
+}
+
+void MainWindow::on_button_gps_clicked(bool checked){
+  system("gnome-terminal  -x bash -c ' source ~/qt_ros_ws/devel/setup.bash ; rosrun gps gps_response  '&");
+}
+void MainWindow::on_button_nav_clicked(bool checked){
+   system("gnome-terminal  -x bash -c ' python /home/ubuntu/qt_ros_ws/src/navigation/src/multinav.py'&");
+}
+
+void MainWindow::on_button_speech_clicked(bool checked){
+  system("gnome-terminal  -x bash -c ' source ~/qt_ros_ws/devel/setup.bash ; roslaunch simple_voice main_sttandtts.launch '&");
+}
+
+}  // namespace guitest
+
